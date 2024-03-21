@@ -17,6 +17,10 @@
     line-height: 125% !important;
 }
 
+.lh_160 {
+    line-height: 160%;
+}
+
 .mint_now_section {
     padding: 98px 0px 138px;
 }
@@ -73,21 +77,33 @@
 
 .accordion-item .accordion-header button {
     background-color: transparent !important;
-    /* Set background color of button to transparent */
-    color: inherit !important;
-    /* Inherit text color */
+    color: white !important;
+    padding: 12px 16px 0px 16px !important;
 }
 
 .accordion-item {
     background-color: transparent !important;
     color: #d7d7d7 !important;
-}
-
-.accordion-item .card-header {
-    background-color: transparent !important;
-    /* Set background color of header to transparent */
+    margin-bottom: 20px;
 }
 
 .accordion-item .card-body {
     background-color: transparent !important;
+}
+
+.accordion-body {
+    max-width: 602px;
+    padding: 8px 0px 12px 16px !important;
+}
+
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    background-image: url(/assets/images/png/Frame\ 31.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: right;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/assets/images/png/Frame\ 31.png) !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+    background-repeat: no-repeat;
 }

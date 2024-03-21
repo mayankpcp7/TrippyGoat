@@ -25,3 +25,19 @@ function decrementCounter() {
 updateCounter(); // Initialize the counter text content
 incrementBtn.addEventListener('click', incrementCounter);
 decrementBtn.addEventListener('click', decrementCounter);
+
+
+
+
+//--------------------------- accordion --------------------------------//
+// JavaScript to toggle accordion content
+function toggleAccordion(index) {
+    const content = document.getElementById(`accordionContent${index}`);
+    if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+        content.classList.remove('show');
+    } else {
+        content.style.maxHeight = content.scrollHeight + 'px';
+        content.classList.add('show');
+    }
+}
