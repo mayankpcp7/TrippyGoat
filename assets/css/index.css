@@ -10,12 +10,19 @@
   --fs-3xsm: 16px;
   --fs-4xsm: 10px;
 }
+
 .fs_3xl {
   font-size: var(--fs-3xl);
 }
+
+.fs-xsm{
+    font-size: var(--fs-xsm);
+}
+
 .fs_2xl {
   font-size: var(--fs-2xl);
 }
+
 .fs_xl {
   font-size: var(--fs-xl);
 }
@@ -39,6 +46,7 @@
 .fs_3xsm {
   font-size: var(--fs-3xsm);
 }
+
 .fs_4xsm {
   font-size: var(--fs-4xsm);
 }
