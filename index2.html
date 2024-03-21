@@ -15,34 +15,39 @@
 <body>
   <!------------------------------------------------- Mint NFT Section---------------------------------------------------->
   <section class="position-relative">
-    <div class="nft_bg ">
+    <div class="nft_bg mint_now_section">
       <div class="custom_container">
         <h2 class="ff_black_han_sans fs_2xl mb-0 pb-2 text-white text-center fw-normal lh_125">Mint NFT</h2>
-        <div class="row justify-content-between align-items-center mt-5">
+        <div class="row gap-4 gap-md-0 justify-content-between align-items-center mt-5">
           <!---------------- img ----------------->
-          <div class="col-5">
+          <div class="col-md-5 d-flex align-items-center justify-content-center">
             <img class="nft_goat_img w-100" src="./assets/images/webp/NftGoat.webp" alt="NftGoat">
           </div>
 
           <!----------------------------- counter box ---------------------------->
-          <div class="col-6 d-flex align-items-center justify-content-center">
+          <div class="col-md-6 d-flex align-items-center justify-content-center">
             <div class="counterbox w-100">
               <!----------------------- counter  -------------------------------->
-              <div class="counter d-flex align-items-center justify-content-center counter_gap mt-4 mb-3">
+              <div class="counter d-flex align-items-center justify-content-center counter_gap mb-3">
+
                 <img class="counterbtn" id="decrementBtn" src="./assets/images/webp/DecrementBtn.webp"
                   alt="DecrementBtn">
+
                 <span id="count" class="text-white ff_black_han_sans fs_lg lh_125 fw-normal">0 / 5656</span>
+
                 <img class="counterbtn" id="incrementBtn" src="./assets/images/webp/IncrementBtn.webp"
                   alt="IncrementBtn">
+
+
               </div>
 
               <p class="text-white fs_2xsm ff_mplus lh_144 mb-2 text-center fw-semibold pt-1">Max 4 NFTs per transaction
               </p>
               <p class="text-white fs_2xsm ff_mplus lh_144 pb-5 mb-0 text-center fw-semibold">75 ADA per NFT</p>
 
-
-              <div class="d-flex align-items-center justify-content-center mb-4 pb-2">
-                <button class="ff_black_han_sans fs_3xsm lh_150 mint_now_btn text-white">Mint Now</button>
+              <div class="d-flex align-items-center justify-content-center position-relative mt-2">
+                <img class="position-absolute" src="./assets/images/svg/MintNowBorder.svg" alt="MintNowBorder">
+                <button class="ff_black_han_sans fs_3xsm lh_150 mint_now_btn text-white z-3">Mint Now</button>
               </div>
 
             </div>
@@ -52,6 +57,69 @@
       </div>
     </div>
   </section>
+
+
+  <!----------------------------------------------------- Faq Section ---------------------------------------------------->
+  <section class="bg_color">
+    <div class="custom_container">
+
+      <div class="accordion pb-5" id="accordionExample">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">Trippy goats are 5656 goats looking to trip with everyone in the metaverse. This
+              genesis collection will give exclusive access to the trippyverse. The mission is to create a community who
+              seek the peak, while finding a peace of mind. Save the world. Lets invade the blockchain farm while
+              trippin
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">Trippy goats are 5656 goats looking to trip with everyone in the metaverse. This
+              genesis collection will give exclusive
+              access to the trippyverse. The mission is to create a community who seek the peak, while finding a peace
+              of mind. Save
+              the world. Lets invade the blockchain farm while trippin
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">Trippy goats are 5656 goats looking to trip with everyone in the metaverse. This
+              genesis collection will give exclusive
+              access to the trippyverse. The mission is to create a community who seek the peak, while finding a peace
+              of mind. Save
+              the world. Lets invade the blockchain farm while trippin
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

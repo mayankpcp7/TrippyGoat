@@ -59,6 +59,6 @@
 /* --------------------container----------------- */
 .custom_container {
   max-width: 1164px;
-  margin: 0px auto;
-  padding: 0px 12px;
+  margin: 0px auto 0px auto;
+  padding: 0px 12px 0px 12px;
 }

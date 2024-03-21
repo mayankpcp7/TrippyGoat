@@ -17,11 +17,17 @@
     line-height: 125% !important;
 }
 
+.mint_now_section {
+    padding: 98px 0px 138px;
+}
+
 .counterbox {
-    border: 1px solid white;
-    backdrop-filter: blur(10px);
+    border: 1px solid #665c47;
+    backdrop-filter: blur(40px);
     max-width: 458px;
+    min-height: 294px;
     border-radius: 8px;
+    padding: 39px 0px 30px;
 }
 
 .counter {
@@ -51,4 +57,37 @@
     padding: 5.24px 0px;
     width: 144px;
     border-radius: 1.05px;
+}
+
+.bg_color {
+    background-color: #1d1d1e;
+}
+
+/*--------------------------------- accordion css -----------------------------*/
+
+.accordion {
+    max-width: 670px !important;
+    margin: 0px auto;
+    background: transparent !important;
+}
+
+.accordion-item .accordion-header button {
+    background-color: transparent !important;
+    /* Set background color of button to transparent */
+    color: inherit !important;
+    /* Inherit text color */
+}
+
+.accordion-item {
+    background-color: transparent !important;
+    color: #d7d7d7 !important;
+}
+
+.accordion-item .card-header {
+    background-color: transparent !important;
+    /* Set background color of header to transparent */
+}
+
+.accordion-item .card-body {
+    background-color: transparent !important;
 }
