@@ -21,9 +21,9 @@
       href="./assets/images/png/NavLogo.png"
     />
   </head>
-  <body>
+  <body class="body_color">
     <!-- ---------------------------------Header Section--------------------------------------------->
-    <header class="bg_header">
+    <header class="bg_header" >
       <!-- -----------------------------------nav----------------------------------->
       <nav class="bg_nav w-100 py-2">
         <div class="custome_container">
@@ -90,17 +90,17 @@
               </ul>
               <div class="d-flex align-items-center ms-5 me-4 pe-1">
                 <img
-                  class="icons_hover transition_300"
+                  class="icons_hover cursor_pointer transition_300"
                   src="./assets/images/svg/InstagramIcon.svg"
                   alt="InstagramIcon"
                 />
                 <img
-                  class="icons_hover transition_300 mx-2"
+                  class="icons_hover cursor_pointer transition_300 mx-2"
                   src="./assets/images/svg/DiscordIcon.svg"
                   alt="DiscordIcon"
                 />
                 <img
-                  class="icons_hover transition_300"
+                  class="icons_hover cursor_pointer transition_300"
                   src="./assets/images/svg/TwitterIcon.svg"
                   alt="TwitterIcon"
                 />
@@ -124,7 +124,7 @@
               id="mobilenav"
             >
               <div
-                class="cross_icon position-absolute top-0 end-0 z-3"
+                class="cross_icon position-absolute top-0 end-0 mt-3 z-3"
                 onclick="hidenav()"
               ></div>
               <ul
@@ -168,17 +168,17 @@
               </ul>
               <div class="d-flex align-items-center">
                 <img
-                  class="icons_hover transition_300"
+                  class="icons_hover cursor_pointer transition_300"
                   src="./assets/images/svg/InstagramIcon.svg"
                   alt="InstagramIcon"
                 />
                 <img
-                  class="icons_hover transition_300 mx-2"
+                  class="icons_hover cursor_pointer transition_300 mx-2"
                   src="./assets/images/svg/DiscordIcon.svg"
                   alt="DiscordIcon"
                 />
                 <img
-                  class="icons_hover transition_300"
+                  class="icons_hover cursor_pointer transition_300"
                   src="./assets/images/svg/TwitterIcon.svg"
                   alt="TwitterIcon"
                 />
@@ -211,7 +211,38 @@
       </div>
     </header>
     <!------------------------------------Trippy Goat--------------------------------------------- -->
-    <section class="bg_trippy_goat"></section>
+    <div class="position-relative z-3">
+      <img
+        class="position-absolute w-100 leaves_bg z-3"
+        src="./assets/images/webp/LeavesBackground.webp"
+        alt="leaves"
+      />
+      <div
+        class="d-flex flex-column relative align-items-center justify-content-center"
+      >
+        <h1 class="fs_3xl text-center text-white ff_black_han_sans mt-5 pt-2">
+          Trippy Goat
+        </h1>
+        <p class="trippy_goat_pera text-white text-center mx-auto ff_mplus">
+          Trippy Goats is a limited collection of 5656 Psychedelic goats,
+          randomly generated from over 40 hand drawn traits. Each goat comes
+          with ownership and commercial usage rights.
+        </p>
+        <div class="position-relative nav_btn mt-4">
+          <img
+            class="position-absolute nav_btn_border"
+            src="./assets/images/svg/BtnBorder.svg"
+            alt=""
+          />
+          <button
+            width="160"
+            class="text-white position-relative z-3 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
+          >
+            Mint Now
+          </button>
+        </div>
+      </div>
+    </div>
     <!-- ----------------------------------Bootstrap cdn---------------------------------------------->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

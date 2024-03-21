@@ -6,7 +6,6 @@
 .bg_header {
   background: url(../images/webp/HeaderBg.webp);
   background-size: cover;
-  background-position: center;
 }
 .body_color {
   background-color: #1d1d1e;
@@ -93,18 +92,26 @@ nav ul li a:hover {
 }
 .start_0 {
   left: 0% !important;
-  transition: 300ms linear;
+}
+.pb_76 {
+  padding-bottom: 76px;
 }
 /* ----------------------------------main----------------------------------- */
 .header_goat {
   max-width: 385.87px;
 }
+.mt_100{margin-top: 100px;}
+/* -------------------------------Trippy Goat ----------------------------- */
+.leaves_bg {
+  top: -10%;
+}
+.trippy_goat_pera {
+  max-width: 558px;
+}
 /* ---------------------------------trippy goat-------------------------- */
 
-
-@media(max-width:768.98px){
-    .header_goat{
-        max-width: 268px;
-    } 
-    .
+@media (max-width: 768.98px) {
+  .header_goat {
+    max-width: 268px;
+  }
 }
