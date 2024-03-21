@@ -24,20 +24,33 @@
   <body>
     <!-- ---------------------------------Header Section--------------------------------------------->
     <header class="bg_header">
+      <!-- -----------------------------------nav----------------------------------->
       <nav class="bg_nav w-100 py-2">
         <div class="custome_container">
           <div class="d-flex align-items-center justify-content-between">
             <div class="d-flex flex-column align-items-center">
               <img
-                class="cursor_pointer nav_logo"
+                class="cursor_pointer position-relative z-3 nav_logo"
                 src="./assets/images/webp/NavLogo.webp"
                 alt="logo"
               />
-              <p class="ff_black_han_sans text-white fw-normal fs_4xsm mb-0">
+              <p
+                class="ff_black_han_sans position-relative z-3 mt-1 text-white fw-normal fs_4xsm mb-0"
+              >
                 Trippy Goat
               </p>
             </div>
-            <div class="d-flex align-items-center">
+            <div
+              class="d-flex flex-column gap-2 nav_icon d-md-none"
+              onclick="shownav()"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <!-- -------------------------Desktop Nav------------------------ -->
+            <div class="d-md-flex align-items-center d-none">
               <ul class="d-flex align-items-center gap_20 mb-0 ps-0">
                 <li>
                   <a
@@ -92,14 +105,92 @@
                   alt="TwitterIcon"
                 />
               </div>
-              <div class=" position-relative">
+              <div class="position-relative nav_btn">
                 <img
                   class="position-absolute nav_btn_border"
                   src="./assets/images/svg/BtnBorder.svg"
                   alt=""
                 />
                 <button
-                  class="text-white bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
+                  class="text-white position-relative z-3 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
+                >
+                  Connect Wallet
+                </button>
+              </div>
+            </div>
+            <!------------------------------Mobile Nav-------------------------->
+            <div
+              class="d-flex position-absolute start_100 transition_300 bottom-0 min-vh-100 w-100 bg-black gap-4 align-items-center justify-content-center flex-column d-md-none"
+              id="mobilenav"
+            >
+              <div
+                class="cross_icon position-absolute top-0 end-0 z-3"
+                onclick="hidenav()"
+              ></div>
+              <ul
+                class="d-flex align-items-center transition_300 flex-column justify-content-center gap-4 mb-0 ps-0"
+              >
+                <li>
+                  <a
+                    class="ff_mplus text_orange fs_3xsm fw-normal transition_300"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
+                    href="#"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
+                    href="#"
+                    >Team</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
+                    href="#"
+                    >RoadMap</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
+                    href="#"
+                    >FAQ
+                  </a>
+                </li>
+              </ul>
+              <div class="d-flex align-items-center">
+                <img
+                  class="icons_hover transition_300"
+                  src="./assets/images/svg/InstagramIcon.svg"
+                  alt="InstagramIcon"
+                />
+                <img
+                  class="icons_hover transition_300 mx-2"
+                  src="./assets/images/svg/DiscordIcon.svg"
+                  alt="DiscordIcon"
+                />
+                <img
+                  class="icons_hover transition_300"
+                  src="./assets/images/svg/TwitterIcon.svg"
+                  alt="TwitterIcon"
+                />
+              </div>
+              <div class="position-relative nav_btn">
+                <img
+                  class="position-absolute nav_btn_border"
+                  src="./assets/images/svg/BtnBorder.svg"
+                  alt=""
+                />
+                <button
+                  class="text-white position-relative z-3 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
                 >
                   Connect Wallet
                 </button>
@@ -110,14 +201,23 @@
           <div></div>
         </div>
       </nav>
-
-      <!-- -----------------------------------nav----------------------------------->
+      <!-------------------------------------main-------------------------------- -->
+      <div class="d-flex pt-4 mt-3 justify-content-center">
+        <img
+          class="header_goat"
+          src="./assets/images/webp/HeaderGoat.webp"
+          alt="Goat"
+        />
+      </div>
     </header>
+    <!------------------------------------Trippy Goat--------------------------------------------- -->
+    <section class="bg_trippy_goat"></section>
     <!-- ----------------------------------Bootstrap cdn---------------------------------------------->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>

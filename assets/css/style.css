@@ -8,7 +8,9 @@
   background-size: cover;
   background-position: center;
 }
-
+.body_color {
+  background-color: #1d1d1e;
+}
 /* ---------------------nav------------------------ */
 nav ul li a:hover {
   color: #ff7d01 !important;
@@ -48,4 +50,61 @@ nav ul li a:hover {
   width: 172px !important;
   top: -7px;
   right: -8px;
+}
+.nav_btn:hover {
+  background-color: black !important;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+.nav_icon span {
+  background-color: #ff7d01;
+  width: 35px;
+  height: 2px;
+}
+.cross_icon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.cross_icon::before,
+.cross_icon::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 2px;
+  background-color: #ff7d01;
+  transform-origin: center;
+}
+
+.cross_icon::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.cross_icon::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.start_100 {
+  left: -100%;
+}
+.start_0 {
+  left: 0% !important;
+  transition: 300ms linear;
+}
+/* ----------------------------------main----------------------------------- */
+.header_goat {
+  max-width: 385.87px;
+}
+/* ---------------------------------trippy goat-------------------------- */
+
+
+@media(max-width:768.98px){
+    .header_goat{
+        max-width: 268px;
+    } 
+    .
 }
