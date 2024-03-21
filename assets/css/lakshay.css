@@ -6,3 +6,49 @@
     background-size: cover;
     background-position: center;
 }
+
+.nft_goat_img {
+    max-width: 386px;
+    max-height: 503px;
+}
+
+
+.lh_125 {
+    line-height: 125% !important;
+}
+
+.counterbox {
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    max-width: 458px;
+    border-radius: 8px;
+}
+
+.counter {
+    font-size: 3rem;
+}
+
+.counterbtn {
+    width: 24px;
+    cursor: pointer;
+}
+
+.counter_gap {
+    gap: 35px;
+}
+
+.lh_144 {
+    line-height: 144% !important;
+}
+
+.lh_150 {
+    line-height: 150% !important;
+}
+
+.mint_now_btn {
+    background-color: #ff7d01;
+    border: none;
+    padding: 5.24px 0px;
+    width: 144px;
+    border-radius: 1.05px;
+}
