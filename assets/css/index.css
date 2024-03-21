@@ -10,12 +10,15 @@
   --fs-3xsm: 16px;
   --fs-4xsm: 10px;
 }
+
 .fs_3xl {
   font-size: var(--fs-3xl);
 }
+
 .fs_2xl {
   font-size: var(--fs-2xl);
 }
+
 .fs_xl {
   font-size: var(--fs-xl);
 }
@@ -39,12 +42,13 @@
 .fs_3xsm {
   font-size: var(--fs-3xsm);
 }
+
 .fs_4xsm {
   font-size: var(--fs-4xsm);
 }
 
 .custome_container {
   max-width: 1140px;
-  margin: auto 0px auto 0px;
-  padding: 0px 12px 0px 12px;
+  margin: 0px auto;
+  padding: 0px 12px;
 }
