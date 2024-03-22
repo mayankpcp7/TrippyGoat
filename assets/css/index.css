@@ -55,11 +55,13 @@
 .ff_mplus {
   font-family: "M PLUS 1", sans-serif;
 }
+
 .ff_black_han_sans {
   font-family: "Black Han Sans";
 }
+
 /* --------------------container----------------- */
-.custome_container {
+.custom_container {
   max-width: 1164px;
   margin: 0px auto 0px auto;
   padding: 0px 12px 0px 12px;
