@@ -9,6 +9,36 @@
     margin-top: -2px;
 }
 
+.bg_black {
+    background-color: #1d1d1e;
+}
+
+.text_orange {
+    color: #ff7d01;
+}
+
+.pt_10 {
+    padding-top: 10px;
+}
+
+.mt_8 {
+    margin-top: 32px;
+}
+
+/*------------------------------------------------ roadmap -------------------------------------------------*/
+.roadmap_sec_p {
+    padding: 60px 0px;
+}
+
+.percentage_card {
+    max-width: 752px;
+    border-radius: 8px;
+    border: 1px solid #3e3e3f;
+    padding: 24px;
+    background-color: #29292a;
+    box-shadow: 0px 0px 16px 4px #ffffff14;
+}
+
 /*-------------------------------------------------- mint now section ----------------------------------------*/
 .nft_bg {
     background: url(../images/webp/NftBg.webp);
