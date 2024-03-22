@@ -27,11 +27,12 @@
 
 .counterbox {
     border: 1px solid #665c47;
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(37px);
     max-width: 458px;
     min-height: 294px;
     border-radius: 8px;
     padding: 39px 0px 30px;
+    box-shadow: 0px 0px 16px 4px #fff();
 }
 
 .counter {
@@ -61,6 +62,11 @@
     padding: 5.24px 0px;
     width: 144px;
     border-radius: 1.05px;
+    transition: all 300ms linear;
+}
+
+.mint_now_btn:hover {
+    background-color: #000;
 }
 
 .bg_color {
@@ -68,42 +74,93 @@
 }
 
 /*--------------------------------- accordion css -----------------------------*/
+.accordion_width {
+    max-width: 670px;
+}
+
+.accordion_padding {
+    padding-top: 80px;
+    padding-bottom: 89px;
+}
 
 .accordion {
-    max-width: 670px !important;
-    margin: 0px auto;
-    background: transparent !important;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #444;
+    border-bottom: none !important;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 12px 16px 8px 16px;
+    max-width: 670px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.3s;
 }
 
-.accordion-item .accordion-header button {
-    background-color: transparent !important;
-    color: white !important;
-    padding: 12px 16px 0px 16px !important;
+.active,
+.accordion {
+    background-color: transparent;
+    border-radius: 10px 10px 0 0;
 }
 
-.accordion-item {
-    background-color: transparent !important;
-    color: #d7d7d7 !important;
-    margin-bottom: 20px;
+.panel {
+    border-top: none !important;
+    border: 1px solid #444;
+    border-radius: 0 0 10px 10px;
+    padding: 0 52px 0px 16px;
+    overflow: hidden;
+    background-color: transparent;
+    color: white;
+    max-height: 0;
+    transition: 0.3s ease-out;
 }
 
-.accordion-item .card-body {
-    background-color: transparent !important;
+.active+.panel {
+    max-height: 700px;
+    width: 100%;
 }
 
-.accordion-body {
-    max-width: 602px;
-    padding: 8px 0px 12px 16px !important;
+.accordion_arrow {
+    transform: rotate(180deg) !important;
+    transition: all 300ms linear;
 }
 
-.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
-    background-image: url(/assets/images/png/Frame\ 31.png) !important;
-    background-repeat: no-repeat !important;
-    background-position: right;
+.active .accordion_arrow {
+    margin-top: -10px;
+    transform: rotate(0deg) !important;
 }
 
-.accordion-button:not(.collapsed)::after {
-    background-image: url(/assets/images/png/Frame\ 31.png) !important;
-    transform: var(--bs-accordion-btn-icon-transform);
-    background-repeat: no-repeat;
+@media (max-width:1199.98px) {
+    .mint_now_section {
+        padding: 80px 0px;
+    }
+}
+
+@media (max-width:1023.98px) {
+    .mint_now_section {
+        padding: 80px 0px;
+    }
+}
+
+@media (max-width:991.98px) {
+    .mint_now_section {
+        padding: 70px 0px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .mint_now_section {
+        padding: 60px 0px;
+    }
+}
+
+@media (max-width:575.98px) {
+    .mint_now_section {
+        padding: 48px 0px;
+    }
+
+    .panel {
+        padding: 0 16px 0px 16px;
+    }
 }
