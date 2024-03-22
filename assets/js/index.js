@@ -9,36 +9,50 @@ function hidenav() {
   document.body.style.overflow = "unset";
 }
 
-// -----------------------------------Mint Nft------------------------------------------------
-const countElement = document.getElementById("count");
-const incrementBtn = document.getElementById("incrementBtn");
-const decrementBtn = document.getElementById("decrementBtn");
-let count = 0;
-const maxValue = 5656;
+//--------------------------- counter box --------------------------------//
 
-function updateCounter() {
-  countElement.textContent = `${count} / ${maxValue}`;
-}
+document.addEventListener("DOMContentLoaded", function () {
+  // Counter Box Functionality
+  const countElement = document.getElementById("count");
+  const incrementBtn = document.getElementById("incrementBtn");
+  const decrementBtn = document.getElementById("decrementBtn");
+  let count = 0;
+  const maxValue = 5656;
 
-function incrementCounter() {
-  if (count < maxValue) {
-    count++;
-    updateCounter();
+  function updateCounter() {
+    countElement.textContent = `${count} / ${maxValue}`;
   }
-}
 
-function decrementCounter() {
-  if (count > 0) {
-    count--;
-    updateCounter();
+  function incrementCounter() {
+    if (count < maxValue) {
+      count++;
+      updateCounter();
+    }
   }
-}
 
-updateCounter(); // Initialize the counter text content
-incrementBtn.addEventListener("click", incrementCounter);
-decrementBtn.addEventListener("click", decrementCounter);
+  function decrementCounter() {
+    if (count > 0) {
+      count--;
+      updateCounter();
+    }
+  }
 
-//--------------------------- accordion js--------------------------------//
+  updateCounter(); // Initialize the counter text content
+  incrementBtn.addEventListener("click", incrementCounter);
+  decrementBtn.addEventListener("click", decrementCounter);
+
+  // Accordion Functionality
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      // Accordion logic here
+    });
+  }
+});
+
+// //--------------------------- accordion js--------------------------------//
 var acc = document.getElementsByClassName("accordion");
 var i;
 
