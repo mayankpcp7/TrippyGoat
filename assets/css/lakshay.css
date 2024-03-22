@@ -69,8 +69,13 @@
     background-color: #000;
 }
 
-.bg_color {
-    background-color: #1d1d1e;
+/*----------------------------------- faq bg ---------------------------------*/
+.faq_bg {
+    background: url(/assets/images/webp/FaqBg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
 }
 
 /*--------------------------------- accordion css -----------------------------*/
@@ -147,11 +152,19 @@
     .mint_now_section {
         padding: 70px 0px;
     }
+
+    .accordion_padding {
+        padding: 60px 0;
+    }
 }
 
 @media (max-width:767.98px) {
     .mint_now_section {
         padding: 60px 0px;
+    }
+
+    .accordion_padding {
+        padding: 40px 16px;
     }
 }
 
@@ -162,5 +175,9 @@
 
     .panel {
         padding: 0 16px 0px 16px;
+    }
+
+    .accordion_padding {
+        padding: 24px 16px;
     }
 }
