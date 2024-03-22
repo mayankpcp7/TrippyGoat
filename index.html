@@ -1,52 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Trippy Goat</title>
-    <!------------------------------------Bootstrap--------------------------------------------------->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <!-- ---------------------------------Style Sheets ------------------------------------------------>
-    <link rel="stylesheet" href="./assets/css/index.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/jatin.css">
-    <link rel="stylesheet" href="./assets/css/lakshay.css">
-    <!------------------------------------Fav Icon--------------------------------------------------->
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./assets/images/png/NavLogo.png"
-    />
-  </head>
-  <body class="body_color">
-    <div class="overflow-hidden"> 
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trippy Goat</title>
+  <!------------------------------------Bootstrap--------------------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- ---------------------------------Style Sheets ------------------------------------------------>
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/jatin.css">
+  <link rel="stylesheet" href="./assets/css/lakshay.css">
+  <!------------------------------------Fav Icon--------------------------------------------------->
+  <link rel="icon" type="image/x-icon" href="./assets/images/png/NavLogo.png" />
+</head>
+
+<body class="body_color">
+  <div class="overflow-hidden">
     <!-- ---------------------------------Header Section--------------------------------------------->
-    <header class="bg_header" >
+    <header class="bg_header">
       <!-- -----------------------------------nav----------------------------------->
       <nav class="bg_nav w-100 py-2">
         <div class="custome_container">
           <div class="d-flex align-items-center justify-content-between">
             <div class="d-flex flex-column align-items-center">
-              <img
-                class="cursor_pointer position-relative z-3 nav_logo"
-                src="./assets/images/webp/NavLogo.webp"
-                alt="logo"
-              />
-              <p
-                class="ff_black_han_sans position-relative z-3 mt-1 text-white fw-normal fs_4xsm mb-0"
-              >
+              <img class="cursor_pointer position-relative z-3 nav_logo" src="./assets/images/webp/NavLogo.webp"
+                alt="logo" />
+              <p class="ff_black_han_sans position-relative z-3 mt-1 text-white fw-normal fs_4xsm mb-0">
                 Trippy Goat
               </p>
             </div>
-            <div
-              class="d-flex flex-column gap-2 nav_icon d-md-none"
-              onclick="shownav()"
-            >
+            <div class="d-flex flex-column gap-2 nav_icon d-md-none" onclick="shownav()">
               <span></span>
               <span></span>
               <span></span>
@@ -56,271 +42,187 @@
             <div class="d-md-flex align-items-center d-none">
               <ul class="d-flex align-items-center gap_20 mb-0 ps-0">
                 <li>
-                  <a
-                    class="ff_mplus text_orange fs_3xsm fw-normal transition_300"
-                    href="#"
-                    >Home</a
-                  >
+                  <a class="ff_mplus text_orange fs_3xsm fw-normal transition_300" href="#">Home</a>
                 </li>
                 <li>
-                  <a
-                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                    href="#"
-                    >About</a
-                  >
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">About</a>
                 </li>
                 <li>
-                  <a
-                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                    href="#"
-                    >Team</a
-                  >
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">Team</a>
                 </li>
                 <li>
-                  <a
-                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                    href="#"
-                    >RoadMap</a
-                  >
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">RoadMap</a>
                 </li>
                 <li>
-                  <a
-                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                    href="#"
-                    >FAQ
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">FAQ
                   </a>
                 </li>
               </ul>
               <div class="d-flex align-items-center ms-5 me-4 pe-1">
-                <img
-                  class="icons_hover cursor_pointer transition_300"
-                  src="./assets/images/svg/InstagramIcon.svg"
-                  alt="InstagramIcon"
-                />
-                <img
-                  class="icons_hover cursor_pointer transition_300 mx-2"
-                  src="./assets/images/svg/DiscordIcon.svg"
-                  alt="DiscordIcon"
-                />
-                <img
-                  class="icons_hover cursor_pointer transition_300"
-                  src="./assets/images/svg/TwitterIcon.svg"
-                  alt="TwitterIcon"
-                />
+                <img class="icons_hover cursor_pointer transition_300" src="./assets/images/svg/InstagramIcon.svg"
+                  alt="InstagramIcon" />
+                <img class="icons_hover cursor_pointer transition_300 mx-2" src="./assets/images/svg/DiscordIcon.svg"
+                  alt="DiscordIcon" />
+                <img class="icons_hover cursor_pointer transition_300" src="./assets/images/svg/TwitterIcon.svg"
+                  alt="TwitterIcon" />
               </div>
               <div class="position-relative nav_btn">
-                <img
-                  class="position-absolute nav_btn_border"
-                  src="./assets/images/svg/BtnBorder.svg"
-                  alt=""
-                />
+                <img class="position-absolute nav_btn_border" src="./assets/images/svg/BtnBorder.svg" alt="" />
                 <button
-                  class="text-white position-relative z-3 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
-                >
+                  class="text-white position-relative z_10 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal">
                   Connect Wallet
                 </button>
               </div>
             </div>
             <!------------------------------Mobile Nav-------------------------->
             <div
-              class="d-flex position-absolute start_100 transition_300 bottom-0 min-vh-100 w-100 bg-black gap-4 align-items-center justify-content-center flex-column d-md-none"
-              id="mobilenav"
-            >
-              <div
-                class="cross_icon position-absolute top-0 end-0 mt-3 z-3"
-                onclick="hidenav()"
-              ></div>
-              <ul
-                class="d-flex align-items-center transition_300 flex-column justify-content-center gap-4 mb-0 ps-0"
-              >
+              class="d-flex position-absolute start_100 transition_300 bottom-0 min-vh-100 w-100 bg-black gap-4 align-items-center justify-content-center z_10 flex-column d-md-none"
+              id="mobilenav">
+              <div class="cross_icon position-absolute top-0 end-0 mt-3 z-3" onclick="hidenav()"></div>
+              <ul class="d-flex align-items-center transition_300 flex-column justify-content-center gap-4 mb-0 ps-0">
                 <li>
-                  <a
-                    class="ff_mplus text_orange fs_3xsm fw-normal transition_300"
-                    href="#"
-                    >Home</a
-                  >
+                  <a class="ff_mplus text_orange fs_3xsm fw-normal transition_300" href="#">Home</a>
                 </li>
                 <li>
-                  <a
-                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                    href="#"
-                    >About</a
-                  >
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">About</a>
                 </li>
                 <li>
-                  <a
-                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                    href="#"
-                    >Team</a
-                  >
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">Team</a>
                 </li>
                 <li>
-                  <a
-                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                    href="#"
-                    >RoadMap</a
-                  >
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">RoadMap</a>
                 </li>
                 <li>
-                  <a
-                    class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                    href="#"
-                    >FAQ
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">FAQ
                   </a>
                 </li>
               </ul>
               <div class="d-flex align-items-center">
-                <img
-                  class="icons_hover cursor_pointer transition_300"
-                  src="./assets/images/svg/InstagramIcon.svg"
-                  alt="InstagramIcon"
-                />
-                <img
-                  class="icons_hover cursor_pointer transition_300 mx-2"
-                  src="./assets/images/svg/DiscordIcon.svg"
-                  alt="DiscordIcon"
-                />
-                <img
-                  class="icons_hover cursor_pointer transition_300"
-                  src="./assets/images/svg/TwitterIcon.svg"
-                  alt="TwitterIcon"
-                />
+                <img class="icons_hover cursor_pointer transition_300" src="./assets/images/svg/InstagramIcon.svg"
+                  alt="InstagramIcon" />
+                <img class="icons_hover cursor_pointer transition_300 mx-2" src="./assets/images/svg/DiscordIcon.svg"
+                  alt="DiscordIcon" />
+                <img class="icons_hover cursor_pointer transition_300" src="./assets/images/svg/TwitterIcon.svg"
+                  alt="TwitterIcon" />
               </div>
               <div class="position-relative nav_btn">
-                <img
-                  class="position-absolute nav_btn_border"
-                  src="./assets/images/svg/BtnBorder.svg"
-                  alt=""
-                />
+                <img class="position-absolute nav_btn_border" src="./assets/images/svg/BtnBorder.svg" alt="" />
                 <button
-                  class="text-white position-relative z-3 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
-                >
+                  class="text-white z_10 position-relative z-10 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal">
                   Connect Wallet
                 </button>
               </div>
             </div>
           </div>
-
-          <div></div>
         </div>
       </nav>
       <!-------------------------------------main-------------------------------- -->
       <div class="d-flex pt-4 mt-3 justify-content-center">
-        <img
-          class="header_goat"
-          src="./assets/images/webp/HeaderGoat.webp"
-          alt="Goat"
-        />
+        <img class="header_goat" src="./assets/images/webp/HeaderGoat.webp" alt="Goat" />
       </div>
     </header>
     <!------------------------------------Trippy Goat--------------------------------------------- -->
-    <div class="position-relative z-3">
-      <img
-        class="position-absolute w-100 leaves_bg z-3"
-        src="./assets/images/webp/LeavesBackground.webp"
-        alt="leaves"
-      />
-      <div
-        class="d-flex flex-column relative align-items-center justify-content-center"
-      >
-        <h1 class="fs_3xl text-center text-white ff_black_han_sans mt-5 pt-2">
-          Trippy Goat
-        </h1>
-        <p class="trippy_goat_pera text-white text-center mx-auto ff_mplus">
-          Trippy Goats is a limited collection of 5656 Psychedelic goats,
-          randomly generated from over 40 hand drawn traits. Each goat comes
-          with ownership and commercial usage rights.
-        </p>
-        <div class="position-relative nav_btn mt-4">
-          <img
-            class="position-absolute nav_btn_border"
-            src="./assets/images/svg/BtnBorder.svg"
-            alt=""
-          />
-          <button
-            width="160"
-            class="text-white position-relative z-3 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
-          >
-            Mint Now
-          </button>
+    <section class="pb_110 position-relative z-3">
+      <img class="position-absolute bottom-0 z-3 w-100" src="./assets/images/webp/HeaderBottomLayer.webp"
+        alt="black layer">
+      <div class="position-relative z-3">
+        <img class="position-absolute w-100 leaves_bg z-3  h_417 lh_125" src="./assets/images/webp/LeavesBackground.webp"
+          alt="leaves" />
+        <div class="d-flex flex-column relative align-items-center z_10 justify-content-center">
+          <h1 class="fs_3xl text-center position-relative z-3 text-white ff_black_han_sans mt-5 pt-2">
+            Trippy Goat
+          </h1>
+          <p class="trippy_goat_pera text-white position-relative z-3 text-center mx-auto ff_mplus">
+            Trippy Goats is a limited collection of 5656 Psychedelic goats,
+            randomly generated from over 40 hand drawn traits. Each goat comes
+            with ownership and commercial usage rights.
+          </p>
+          <div class="position-relative z_10 nav_btn mt-4">
+            <img class="position-absolute nav_btn_border" src="./assets/images/svg/BtnBorder.svg" alt="" />
+            <button width="160"
+              class="text-white z_10 position-relative z_10 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal">
+              Mint Now
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-     <!------------------------------------------------- Mint NFT Section---------------------------------------------------->
+    </section>
+    <!-------------------------------------About Us------------------------------------------------ -->
+    <section class="py_91 position-relative">
+      <img class="position-absolute d-xxl-block d-none trippy_goat_ellipse" src="./assets/images/png/TrippyGoatEllipse.png" alt="ellipse">
+      <div class="custome_container">
+        <div class="d-flex min_h_515 flex-column flex-lg-row align-items-center justify-content-between">
+          <!-- ------------------------stack cards------------------- -->
+         
+            <div class="position-relative min-h-400 translate-middle-x mt-5 mt-lg-0 py_515 ms-lg-5  ps-lg-5">
+              <img class="center z-0 mw_366 position-absolute" src="./assets/images/png/OrangeEllipse.png"
+                alt="ellipse">
+              <img class="center z-1 position-absolute orange_goat" src="./assets/images/svg/OrangeBgGoat.svg" alt="OrangeBgGoat">
+              <img class="z-2 black_goat center position-absolute" src="./assets/images/svg/BlackGoat.svg" alt="BlackGoat">
+              <img class="center yellow_goat z-3 position-absolute" src="./assets/images/svg/YellowGoat.svg" alt="">
+
+            </div>
+         
+          <!-- ---------------------------subheading pera---------------------------------------- -->
+          <div class="d-flex flex-column align-items-center align-items-lg-start mt-5 lg:mt-0">
+            <h2 class="fs_2xl ff_black_han_sans  text-lg-start text-center text-white">About Us</h2>
+            <p class="ff_mplus about_pera pb-4 fs_3xsm  mb-3 mt-1 pt-2 text-lg-start text-center">Hi goaties call me legion with a pen. From an early age I was
+              influenced by my selfless loving mother who inspired me to become a pet and art lover. As young as I was
+              then, My mother would read goat story to me even though I didn't understand it. During the course of time
+              I have played countless video games, watched movies and read books on pets particularly on goat.I made
+              this art to portray my illustration of the psychedelic goats and I hope you can appreciate that everyone
+              has a history. With regards to why non-fungibles.</p>
+            <div class="position-relative read_btn mt-2">
+              <img class="position-absolute w_156 read_btn_border readbtn_width" src="./assets/images/svg/BtnBorder.svg"
+                alt="btnborder" />
+              <button
+                class="text-white read_btn position-relative z-3 transition_300 bg_orange d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal">
+                Read more
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------------------- -->
+    <!------------------------------------------------- Mint NFT Section---------------------------------------------------->
     <section class="position-relative">
       <div class="nft_bg mint_now_section">
         <div class="custome_container">
-          <h2
-            class="ff_black_han_sans fs_2xl mb-0 pb-2 text-white text-center fw-normal lh_125"
-          >
+          <h2 class="ff_black_han_sans fs_2xl mb-0 pb-2 text-white text-center fw-normal lh_125">
             Mint NFT
           </h2>
-          <div
-            class="row gap-4 gap-md-0 justify-content-between align-items-center mt-5"
-          >
+          <div class="row gap-4 gap-md-0 justify-content-between align-items-center mt-5">
             <!---------------- img ----------------->
-            <div
-              class="col-md-5 d-flex align-items-center justify-content-center"
-            >
-              <img
-                class="nft_goat_img w-100"
-                src="./assets/images/webp/NftGoat.webp"
-                alt="NftGoat"
-              />
+            <div class="col-md-5 d-flex align-items-center justify-content-center">
+              <img class="nft_goat_img w-100" src="./assets/images/webp/NftGoat.webp" alt="NftGoat" />
             </div>
 
             <!----------------------------- counter box ---------------------------->
-            <div
-              class="col-md-6 d-flex align-items-center justify-content-center"
-            >
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
               <div class="counterbox w-100">
                 <!----------------------- counter  -------------------------------->
-                <div
-                  class="counter d-flex align-items-center justify-content-center counter_gap mb-3"
-                >
-                  <img
-                    class="counterbtn"
-                    id="decrementBtn"
-                    src="./assets/images/webp/DecrementBtn.webp"
-                    alt="DecrementBtn"
-                  />
+                <div class="counter d-flex align-items-center justify-content-center counter_gap mb-3">
+                  <img class="counterbtn" id="decrementBtn" src="./assets/images/webp/DecrementBtn.webp"
+                    alt="DecrementBtn" />
 
-                  <span
-                    id="count"
-                    class="text-white ff_black_han_sans fs_lg lh_125 fw-normal"
-                    >0 / 5656</span
-                  >
+                  <span id="count" class="text-white ff_black_han_sans fs_lg lh_125 fw-normal">0 / 5656</span>
 
-                  <img
-                    class="counterbtn"
-                    id="incrementBtn"
-                    src="./assets/images/webp/IncrementBtn.webp"
-                    alt="IncrementBtn"
-                  />
+                  <img class="counterbtn" id="incrementBtn" src="./assets/images/webp/IncrementBtn.webp"
+                    alt="IncrementBtn" />
                 </div>
 
-                <p
-                  class="text-white fs_2xsm ff_mplus lh_144 mb-2 text-center fw-semibold pt-1"
-                >
+                <p class="text-white fs_2xsm ff_mplus lh_144 mb-2 text-center fw-semibold pt-1">
                   Max 4 NFTs per transaction
                 </p>
-                <p
-                  class="text-white fs_2xsm ff_mplus lh_144 pb-5 mb-0 text-center fw-semibold"
-                >
+                <p class="text-white fs_2xsm ff_mplus lh_144 pb-5 mb-0 text-center fw-semibold">
                   75 ADA per NFT
                 </p>
 
-                <div
-                  class="d-flex align-items-center justify-content-center position-relative mt-2"
-                >
-                  <img
-                    class="position-absolute"
-                    src="./assets/images/svg/MintNowBorder.svg"
-                    alt="MintNowBorder"
-                  />
-                  <button
-                    class="ff_black_han_sans fs_3xsm lh_150 mint_now_btn text-white z-3"
-                  >
+                <div class="d-flex align-items-center justify-content-center position-relative mt-2">
+                  <img class="position-absolute" src="./assets/images/svg/MintNowBorder.svg" alt="MintNowBorder" />
+                  <button class="ff_black_han_sans fs_3xsm lh_150 mint_now_btn text-white z-3">
                     Mint Now
                   </button>
                 </div>
@@ -332,49 +234,50 @@
     </section>
 
     <!---------------------------------------------Team ----------------------------------------------->
-      <section class="team-section-bg-color team-section-padding">
-    <div class="custome_container">
-      <h2 class="text-white fs_2xl fw-normal text-center ff-black-han-sans ">Team</h2>
-      <div class="team-section-cards justify-content-center row ">
-        <div class="team-card ">
-          <div class="hover-img">
-            <img width="294px" height="293" class="w-100" src="./assets/images/png/TeamVilarImage.png"
-              alt="TeamArwenCoFounder">
+    <section class="team-section-bg-color team-section-padding">
+      <div class="custome_container">
+        <h2 class="text-white fs_2xl fw-normal text-center ff-black-han-sans ">Team</h2>
+        <div class="team-section-cards justify-content-center row ">
+          <div class="team-card ">
+            <div class="hover-img">
+              <img width="294px" height="293" class="w-100" src="./assets/images/png/TeamVilarImage.png"
+                alt="TeamArwenCoFounder">
+            </div>
+            <span class="team-name-designation-box text-center border-left d-flex flex-column gap-1 align-items-center">
+              <h3 class="text-white d-inline-flex fs-xsm ff-black-han-sans">Vilar</h3>
+              <p class="text-white d-inline-flex  fs_3xsm ff-m-plus fw-normal">Founder & Developer</p>
+            </span>
           </div>
-          <span class="team-name-designation-box text-center border-left d-flex flex-column gap-1 align-items-center">
-            <h3 class="text-white d-inline-flex fs-xsm ff-black-han-sans">Vilar</h3>
-            <p class="text-white d-inline-flex  fs_3xsm ff-m-plus fw-normal">Founder & Developer</p>
-          </span>
-        </div>
 
-        <div class="team-card">
-          <div class="hover-img">
-            <img width="294px" height="293" class="w-100" src="./assets/images/png/TeamArwenImage.png"
-              alt="TeamArwenCoFounder">
+          <div class="team-card">
+            <div class="hover-img">
+              <img width="294px" height="293" class="w-100" src="./assets/images/png/TeamArwenImage.png"
+                alt="TeamArwenCoFounder">
+            </div>
+            <span class="team-name-designation-box text-center d-flex flex-column gap-1 align-items-center">
+              <h3 class="text-white d-inline-flex fs-xsm ff-black-han-sans">Arwen</h3>
+              <p class="text-white d-inline-flex  fs_3xsm ff-m-plus fw-normal">Co-founder & Designer</p>
+            </span>
           </div>
-          <span class="team-name-designation-box text-center d-flex flex-column gap-1 align-items-center">
-            <h3 class="text-white d-inline-flex fs-xsm ff-black-han-sans">Arwen</h3>
-            <p class="text-white d-inline-flex  fs_3xsm ff-m-plus fw-normal">Co-founder & Designer</p>
-          </span>
-        </div>
 
-        <div class="team-card ">
-          <div class="hover-img">
-            <img width="294px" height="293" class="w-100" src="./assets/images/png/TeamJohnImage.png"
-              alt="TeamArwenCoFounder">
+          <div class="team-card ">
+            <div class="hover-img">
+              <img width="294px" height="293" class="w-100" src="./assets/images/png/TeamJohnImage.png"
+                alt="TeamArwenCoFounder">
+            </div>
+            <span
+              class="team-name-designation-box text-center border-right d-flex flex-column gap-1 align-items-center">
+              <h3 class="text-white d-inline-flex fs-xsm ff-black-han-sans">John</h3>
+              <p class="text-white d-inline-flex  fs_3xsm ff-m-plus fw-normal">Developer</p>
+            </span>
           </div>
-          <span class="team-name-designation-box text-center border-right d-flex flex-column gap-1 align-items-center">
-            <h3 class="text-white d-inline-flex fs-xsm ff-black-han-sans">John</h3>
-            <p class="text-white d-inline-flex  fs_3xsm ff-m-plus fw-normal">Developer</p>
-          </span>
         </div>
       </div>
-    </div>
-    </div>
-    </div>
+  </div>
+  </div>
   </section>
-    <!----------------------------------------------------- Faq Section ---------------------------------------------------->
- <section class="bg_color">
+  <!----------------------------------------------------- Faq Section ---------------------------------------------------->
+  <section class="bg_color">
     <div class="custome_container">
 
       <div class="pt-2 text-center">
@@ -481,7 +384,7 @@
           eget rhoncus at.</p>
         <!-- footer social links -->
         <div class=" d-flex footer-social-links">
-          <a  href=""> <span><svg width="29" height="29" viewBox="0 0 29 29" fill="none"
+          <a href=""> <span><svg width="29" height="29" viewBox="0 0 29 29" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <circle cx="14.0789" cy="14.0789" r="13.6096" stroke="white" stroke-width="0.938596" />
                 <path
@@ -797,13 +700,12 @@
     </span>
   </footer>
   </div>
-    <!-- ---------------------------------------Bootstrap cdn---------------------------------------------->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <!-- -------------------------------------------js---------------------------------------------- -->
-    <script src="./assets/js/index.js"></script>
-  </body>
+  <!-- ---------------------------------------Bootstrap cdn---------------------------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- -------------------------------------------js---------------------------------------------- -->
+  <script src="./assets/js/index.js"></script>
+</body>
+
 </html>

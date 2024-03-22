@@ -11,11 +11,14 @@
   background-color: #1d1d1e;
 }
 /* ---------------------nav------------------------ */
+.z_10 {
+  z-index: 10 !important;
+}
 nav ul li a:hover {
   color: #ff7d01 !important;
 }
 .bg_nav {
-  background-color: rgba(0, 0, 0, 0.602);
+  background: url(../images/png/NavBg.png);
 }
 .nav_logo {
   max-width: 49.33px;
@@ -100,7 +103,9 @@ nav ul li a:hover {
 .header_goat {
   max-width: 385.87px;
 }
-.mt_100{margin-top: 100px;}
+.mt_100 {
+  margin-top: 100px;
+}
 /* -------------------------------Trippy Goat ----------------------------- */
 .leaves_bg {
   top: -10%;
@@ -108,10 +113,116 @@ nav ul li a:hover {
 .trippy_goat_pera {
   max-width: 558px;
 }
-/* ---------------------------------trippy goat-------------------------- */
+.pb_110 {
+  margin-bottom: 110px;
+}
+
+.h_417 {
+  max-height: 417px !important;
+}
+.lh_125 {
+  line-height: 125%;
+}
+/* ---------------------------------About us------------------------------- */
+.py_91 {
+  padding-top: 91px;
+  padding-bottom: 91px;
+}
+.about_pera {
+  max-width: 560px;
+  color: #bbbbbb;
+}
+.read_btn {
+  height: 34.48px;
+  width: 144px;
+  border-radius: 1.05px;
+  border: none;
+}
+.read_btn_border {
+  height: 49px !important;
+  width: 156px !important;
+  top: -7px;
+  right: -6px;
+}
+.read_btn:hover {
+  background-color: black !important;
+}
+.center {
+  transform: translateY(-50%);
+  top: 50%;
+}
+.mw_366 {
+  max-width: 366px;
+}
+.black_goat {
+  transform: translateX(-20%) translateY(-43%) !important;
+}
+.orange_goat {
+  transform: translateX(-35%) translateY(-34%) !important;
+}
+.min_h_515 {
+  min-height: 515px;
+}
+.trippy_goat_ellipse {
+  position: absolute;
+  right: -80%;
+  top: -90%;
+  z-index: 4;
+}
+/* ------------------------------------------------ */
+@media (max-width: 1200px) {
+  .center {
+    max-width: 260px !important;
+  }
+}
+@media (max-width: 992px) {
+  .py_91 {
+    padding-top: 0px;
+    padding-bottom: 91px;
+  }
+  .about_pera {
+    max-width: 760px;
+    color: #bbbbbb;
+  }
+  .center {
+    transform: translateY(0%) translateX(-50%);
+    top: 0%;
+    left: 50%;
+  }
+  .black_goat {
+    transform: translateX(-76%) translateY(23%) !important;
+  }
+  .orange_goat {
+    transform: translateX(-95%) translateY(44%) !important;
+  }
+  .min-h-400 {
+    min-height: 400px !important;
+  }
+  .y_10 {
+    transform: translateX(50%) !important;
+  }
+}
 
 @media (max-width: 768.98px) {
   .header_goat {
     max-width: 268px;
+  }
+  .trippy_goat_ellipse {
+    right: -57%;
+    bottom: -7%;
+  }
+  .pb_110 {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 576.98px) {
+  .pb_110 {
+    margin-bottom: 0px;
+  }
+  .black_goat {
+    transform: translateX(-56%) translateY(23%) !important;
+  }
+  .orange_goat {
+    transform: translateX(-65%) translateY(44%) !important;
   }
 }

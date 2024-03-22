@@ -1,41 +1,42 @@
-
 // -------------------------------Navbar----------------------------------------------------
 
 function shownav() {
   document.getElementById("mobilenav").classList.add("start_0");
+  document.body.style.overflow = "hidden";
 }
 function hidenav() {
   document.getElementById("mobilenav").classList.remove("start_0");
+  document.body.style.overflow = "unset";
 }
 
 // -----------------------------------Mint Nft------------------------------------------------
-const countElement = document.getElementById('count');
-const incrementBtn = document.getElementById('incrementBtn');
-const decrementBtn = document.getElementById('decrementBtn');
+const countElement = document.getElementById("count");
+const incrementBtn = document.getElementById("incrementBtn");
+const decrementBtn = document.getElementById("decrementBtn");
 let count = 0;
 const maxValue = 5656;
 
 function updateCounter() {
-    countElement.textContent = `${count} / ${maxValue}`;
+  countElement.textContent = `${count} / ${maxValue}`;
 }
 
 function incrementCounter() {
-    if (count < maxValue) {
-        count++;
-        updateCounter();
-    }
+  if (count < maxValue) {
+    count++;
+    updateCounter();
+  }
 }
 
 function decrementCounter() {
-    if (count > 0) {
-        count--;
-        updateCounter();
-    }
+  if (count > 0) {
+    count--;
+    updateCounter();
+  }
 }
 
 updateCounter(); // Initialize the counter text content
-incrementBtn.addEventListener('click', incrementCounter);
-decrementBtn.addEventListener('click', decrementCounter);
+incrementBtn.addEventListener("click", incrementCounter);
+decrementBtn.addEventListener("click", decrementCounter);
 
 //--------------------------- accordion js--------------------------------//
 var acc = document.getElementsByClassName("accordion");
