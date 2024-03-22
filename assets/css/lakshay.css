@@ -113,7 +113,7 @@
 
 .accordion {
     border-radius: 10px 10px 10px 10px;
-    border: 1px solid #444;
+    border: 1px solid #ffffff5f;
     color: #fff;
     background-color: transparent;
     cursor: pointer;
@@ -125,11 +125,17 @@
     transition: 0.3s;
 }
 
+.btn1 {
+    background-color: #ffffff17;
+    padding-bottom: 12px;
+}
+
 .active,
 .accordion.active-bottom {
-    background-color: transparent;
+    background-color: #ffffff17;
     border-radius: 10px 10px 0 0;
     border-bottom: none !important;
+    padding-bottom: 8px;
 }
 
 .panel {
@@ -138,14 +144,14 @@
     border-radius: 0 0 10px 10px;
     padding: 0 52px 0px 16px;
     overflow: hidden;
-    background-color: transparent;
+    background-color: #ffffff17;
     color: white;
     max-height: 0;
     transition: all 300ms linear;
 }
 
 .active+.panel {
-    border: 1px solid #444;
+    border: 1px solid #ffffff5f;
     max-height: 700px;
     width: 100%;
 }
