@@ -1,3 +1,4 @@
+//--------------------------- counter box --------------------------------//
 const countElement = document.getElementById('count');
 const incrementBtn = document.getElementById('incrementBtn');
 const decrementBtn = document.getElementById('decrementBtn');
@@ -26,18 +27,32 @@ updateCounter(); // Initialize the counter text content
 incrementBtn.addEventListener('click', incrementCounter);
 decrementBtn.addEventListener('click', decrementCounter);
 
+//--------------------------- accordion js--------------------------------//
+var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+        var isActive = this.classList.contains("active");
 
+        // Close active accordion if clicked again
+        if (isActive) {
+            this.classList.remove("active");
+            var panel = this.nextElementSibling;
+            panel.style.maxHeight = null;
+        } else {
+            // Close all other active accordions
+            var activeAccordions = document.querySelectorAll(".accordion.active");
+            activeAccordions.forEach(function (acc) {
+                acc.classList.remove("active");
+                var panel = acc.nextElementSibling;
+                panel.style.maxHeight = null;
+            });
 
-//--------------------------- accordion --------------------------------//
-// JavaScript to toggle accordion content
-function toggleAccordion(index) {
-    const content = document.getElementById(`accordionContent${index}`);
-    if (content.style.maxHeight) {
-        content.style.maxHeight = null;
-        content.classList.remove('show');
-    } else {
-        content.style.maxHeight = content.scrollHeight + 'px';
-        content.classList.add('show');
-    }
+            // Open the clicked accordion
+            this.classList.add("active");
+            var panel = this.nextElementSibling;
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
 }
