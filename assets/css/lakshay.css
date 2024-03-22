@@ -5,6 +5,10 @@
     margin: 0px auto;
 }
 
+.-mt_1 {
+    margin-top: -2px;
+}
+
 /*-------------------------------------------------- mint now section ----------------------------------------*/
 .nft_bg {
     background: url(../images/webp/NftBg.webp);
@@ -42,12 +46,13 @@
 /*------------------------------------------ counterbox css -------------------------------------------------------*/
 .counterbox {
     border: 1px solid #665c47;
-    backdrop-filter: blur(37px);
+    backdrop-filter: blur(15px);
+    background-color: #ffffff18;
     max-width: 458px;
     min-height: 294px;
     border-radius: 8px;
     padding: 39px 0px 30px;
-    box-shadow: 0px 0px 16px 4px #fff();
+    box-shadow: 0px 0px 16px 4px #ffffff2c;
 }
 
 .counter {
