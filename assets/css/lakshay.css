@@ -5,6 +5,7 @@
     margin: 0px auto;
 }
 
+/*-------------------------------------------------- mint now section ----------------------------------------*/
 .nft_bg {
     background: url(../images/webp/NftBg.webp);
     background-repeat: no-repeat;
@@ -17,6 +18,18 @@
     max-height: 503px;
 }
 
+.mint_now_section {
+    padding: 98px 0px 138px;
+}
+
+/*------------------------------------------- line height -------------------------------------------------*/
+.lh_144 {
+    line-height: 144% !important;
+}
+
+.lh_150 {
+    line-height: 150% !important;
+}
 
 .lh_125 {
     line-height: 125% !important;
@@ -26,10 +39,7 @@
     line-height: 160%;
 }
 
-.mint_now_section {
-    padding: 98px 0px 138px;
-}
-
+/*------------------------------------------ counterbox css -------------------------------------------------------*/
 .counterbox {
     border: 1px solid #665c47;
     backdrop-filter: blur(37px);
@@ -53,13 +63,6 @@
     gap: 35px;
 }
 
-.lh_144 {
-    line-height: 144% !important;
-}
-
-.lh_150 {
-    line-height: 150% !important;
-}
 
 .mint_now_btn {
     background-color: #ff7d01;
@@ -74,7 +77,7 @@
     background-color: #000;
 }
 
-/*----------------------------------- faq bg ---------------------------------*/
+/*------------------------------------------------------------ faq bg -----------------------------------------------------*/
 .faq_bg {
     background: url(/assets/images/webp/FaqBg.webp);
     background-repeat: no-repeat;
@@ -96,12 +99,12 @@
 }
 
 .faq_left_vector {
-    max-width: 800px;
+    max-width: 327px !important;
     left: 0%;
     top: 25%;
 }
 
-/*--------------------------------- accordion css -----------------------------*/
+/*-------------------------------------------------------- accordion css ---------------------------------------------------*/
 .accordion_width {
     max-width: 670px;
 }
@@ -166,9 +169,16 @@
     transform: rotate(0deg) !important;
 }
 
+/*---------------------------------------------- media queries -----------------------------------------------------*/
 @media (max-width:1199.98px) {
     .mint_now_section {
         padding: 80px 0px;
+    }
+
+    .faq_left_vector {
+        max-width: 180px !important;
+        left: 0%;
+        top: 20%;
     }
 }
 
@@ -186,6 +196,12 @@
     .accordion_padding {
         padding: 60px 0;
     }
+
+    .faq_left_vector {
+        max-width: 150px !important;
+        left: 0%;
+        top: -2%;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -195,6 +211,16 @@
 
     .accordion_padding {
         padding: 40px 16px;
+    }
+
+    .faq_left_ellipse {
+        max-width: 600px;
+    }
+
+    .faq_left_vector {
+        max-width: 120px !important;
+        left: 0%;
+        top: -2%;
     }
 }
 
@@ -209,5 +235,24 @@
 
     .accordion_padding {
         padding: 24px 16px;
+    }
+
+    .nft_goat_img {
+        max-width: 300px;
+        max-height: 503px;
+    }
+
+    .faq_left_ellipse {
+        max-width: 400px;
+    }
+
+    .faq_left_vector {
+        display: none;
+    }
+
+    .faq_right_ellipse {
+        max-width: 400px;
+        right: 0%;
+        top: 20%;
     }
 }
