@@ -89,9 +89,8 @@
 }
 
 .accordion {
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
     border: 1px solid #444;
-    border-bottom: none !important;
     color: #fff;
     background-color: transparent;
     cursor: pointer;
@@ -104,24 +103,26 @@
 }
 
 .active,
-.accordion {
+.accordion.active-bottom {
     background-color: transparent;
     border-radius: 10px 10px 0 0;
+    border-bottom: none !important;
 }
 
 .panel {
     border-top: none !important;
-    border: 1px solid #444;
+    border-top: none !important;
     border-radius: 0 0 10px 10px;
     padding: 0 52px 0px 16px;
     overflow: hidden;
     background-color: transparent;
     color: white;
     max-height: 0;
-    transition: 0.3s ease-out;
+    transition: all 300ms linear;
 }
 
 .active+.panel {
+    border: 1px solid #444;
     max-height: 700px;
     width: 100%;
 }
