@@ -138,6 +138,69 @@ p {
     -webkit-text-stroke: 1px black;
 }
 
+.h_100 {
+    height: 100vh;
+}
+
+/* stack cards */
+input[type=radio] {
+    display: none;
+}
+
+.card {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    margin: auto;
+    transition: transform .4s ease;
+    cursor: pointer;
+    border-radius: 22px;
+
+}
+
+.cards img {
+    border-radius: 24px;
+}
+
+.cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+#item-1:checked~.cards #song-3,
+#item-2:checked~.cards #song-1,
+#item-3:checked~.cards #song-2 {
+    transform: translatex(-30%) scale(.8) rotate(-10deg) translateY(5%);
+    opacity: .4;
+    z-index: 0;
+}
+
+#item-1:checked~.cards #song-2,
+#item-2:checked~.cards #song-3,
+#item-3:checked~.cards #song-1 {
+    transform: translatex(-40%) scale(.8) rotate(-20deg) translateY(8%);
+    opacity: .4;
+    z-index: 0;
+}
+
+#item-1:checked~.cards #song-1,
+#item-2:checked~.cards #song-2,
+#item-3:checked~.cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+
+    img {
+        box-shadow: 0px 4px 20px 0px rgba(255, 125, 1, 0.6);
+    }
+}
+
+/* stack cards */
+
 @media (max-width:1200px) {
     .footer-padding {
         padding-top: 100px;
@@ -164,7 +227,7 @@ p {
         position: absolute;
     }
 
-    .footer-company-logo svg {
+    .footer-company-logo img {
         width: 75px;
         height: 76px;
     }
