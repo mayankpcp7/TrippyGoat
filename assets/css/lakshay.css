@@ -30,6 +30,10 @@
     padding: 60px 0px;
 }
 
+.min_h_652px {
+    min-height: 800px;
+}
+
 .percentage_card {
     max-width: 752px;
     border-radius: 8px;
@@ -44,7 +48,7 @@
     position: relative;
     width: 1px;
     height: 100%;
-    min-height: 537px;
+    min-height: 480px;
     background-color: #8e8e8e;
 }
 
