@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+
 // //--------------------------- accordion js--------------------------------//
 var acc = document.getElementsByClassName("accordion");
 var i;
