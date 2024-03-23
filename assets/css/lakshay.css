@@ -37,6 +37,39 @@
     padding: 24px;
     background-color: #29292a;
     box-shadow: 0px 0px 16px 4px #ffffff14;
+    margin-left: 139px;
+}
+
+.timeline {
+    position: relative;
+    width: 1px;
+    height: 100%;
+    min-height: 537px;
+    background-color: #8e8e8e;
+}
+
+.timeline_dot {
+    background: #000;
+    border: 1px solid white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.dot1 {
+    top: 0;
+    left: 0;
+}
+
+.dot2 {
+    top: 50%;
+    left: 0;
+}
+
+.dot3 {
+    top: 100%;
+    left: 0;
 }
 
 /*-------------------------------------------------- mint now section ----------------------------------------*/
