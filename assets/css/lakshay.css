@@ -273,6 +273,10 @@
         left: 0%;
         top: -2%;
     }
+
+    .percentage_card {
+        margin-left: 100px;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -292,6 +296,10 @@
         max-width: 120px !important;
         left: 0%;
         top: -2%;
+    }
+
+    .percentage_card {
+        margin-left: 60px;
     }
 }
 
@@ -325,5 +333,9 @@
         max-width: 400px;
         right: 0%;
         top: 20%;
+    }
+
+    .percentage_card {
+        margin-left: 24px;
     }
 }
