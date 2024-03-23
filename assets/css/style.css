@@ -176,8 +176,22 @@ nav ul li a:hover {
 .scale_hover:hover {
   transform: scale(0.9);
 }
-
-
+.slick-track {
+  display: flex !important;
+}
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.slick-slide  {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  max-width: 203px !important;
+}
+.mw_1440{
+  max-width: 1440px !important;
+}
 
 /* --------------------------------------Media Quaries----------------------------------------- */
 @media (max-width: 1200px) {
