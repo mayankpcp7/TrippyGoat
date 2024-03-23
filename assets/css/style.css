@@ -176,44 +176,8 @@ nav ul li a:hover {
 .scale_hover:hover {
   transform: scale(0.9);
 }
-/* .min_w_203 {
-  min-width: 203px;
-} */
 
-#slider-container {
-  overflow: hidden;
-  height: 780px;
-}
 
-#slider-container img {
-  animation: slide 10s infinite;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-300%);
-  }
-}
-#slider-container2 {
-  overflow: hidden;
-  height: 780px;
-}
-
-#slider-container2 img {
-  animation: slide2 10s infinite;
-}
-
-@keyframes slide2 {
-  0% {
-    transform: translateY(-300%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
 
 /* --------------------------------------Media Quaries----------------------------------------- */
 @media (max-width: 1200px) {
