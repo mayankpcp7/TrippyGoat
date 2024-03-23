@@ -41,7 +41,7 @@
     padding: 24px;
     background-color: #29292a;
     box-shadow: 0px 0px 16px 4px #ffffff14;
-    margin-left: 139px;
+    margin-left: 70px;
 }
 
 .timeline {
@@ -273,10 +273,6 @@
         left: 0%;
         top: -2%;
     }
-
-    .percentage_card {
-        margin-left: 100px;
-    }
 }
 
 @media (max-width:767.98px) {
@@ -299,7 +295,7 @@
     }
 
     .percentage_card {
-        margin-left: 60px;
+        margin-left: 48px;
     }
 }
 
