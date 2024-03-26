@@ -16,6 +16,10 @@ p {
     margin-bottom: 0 !important;
 }
 
+.text_orange {
+    color: #FF7D01;
+}
+
 .team-section-bg-color {
     background-color: #1D1D1E;
 }
@@ -69,7 +73,7 @@ p {
 }
 
 .footer-background {
-    background-image: url(../images/png/footer-background.png);
+    background-image: url(../images/webp/footer-background.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -137,14 +141,6 @@ p {
 .footer-company-logo p {
     -webkit-text-stroke: 1px black;
 }
-
-.h_100 {
-    height: 100vh;
-}
-
-/* stack cards */
-
-/* stack cards */
 
 @media (max-width:1200px) {
     .footer-padding {
