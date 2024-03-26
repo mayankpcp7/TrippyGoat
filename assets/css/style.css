@@ -61,7 +61,7 @@ nav ul li a:hover {
 }
 .nav_icon span {
   background-color: #ff7d01;
-  width: 35px;
+  width: 30px;
   height: 2px;
 }
 .cross_icon {
@@ -176,27 +176,29 @@ nav ul li a:hover {
 .scale_hover:hover {
   transform: scale(0.9);
 }
-.slick-track {
-  display: flex !important;
-}
-.slick-slide {
-  height: inherit !important;
-  display: flex !important;
-}
-.slick-slide  {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  max-width: 203px !important;
-}
-.mw_1440{
-  max-width: 1440px !important;
+.slide_track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
 }
 
+/* // Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
 /* --------------------------------------Media Quaries----------------------------------------- */
 @media (max-width: 1200px) {
   .center {
     max-width: 260px !important;
+  }
+  .py_91 {
+    padding-top: 30px;
+    padding-bottom: 91px;
   }
 }
 @media (max-width: 992px) {
@@ -238,13 +240,13 @@ nav ul li a:hover {
   .pb_110 {
     margin-bottom: 70px;
   }
-    .py_91 {
+  .py_91 {
     padding-top: 0px;
     padding-bottom: 60px;
   }
 }
 @media (max-width: 576.98px) {
-    .py_91 {
+  .py_91 {
     padding-top: 10px;
     padding-bottom: 48px;
   }

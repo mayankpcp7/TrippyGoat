@@ -80,3 +80,29 @@
     --fs-4xsm: 10px;
   }
 }
+@media (max-width: 768.98px) {
+  :root {
+    --fs-3xl: 40px;
+    --fs-2xl: 34px;
+    --fs-xl: 36px;
+    --fs-lg: 26px;
+    --fs-md: 30px;
+    --fs-sm: 22px;
+    --fs-xsm: 18px;
+    
+  }
+}
+@media (max-width: 992px) {
+  :root {
+    --fs-3xl: 44px;
+    --fs-2xl: 38px;
+    --fs-xl: 40px;
+    --fs-lg: 30px;
+    --fs-md: 34px;
+    --fs-sm: 24px;
+    --fs-xsm: 20px;
+    --fs-2xsm: 16px;
+    --fs-3xsm: 14px;
+    --fs-4xsm: 10px;
+  }
+}
