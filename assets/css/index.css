@@ -15,6 +15,10 @@
   font-size: var(--fs-3xl);
 }
 
+.fs-xsm {
+  font-size: var(--fs-xsm);
+}
+
 .fs_2xl {
   font-size: var(--fs-2xl);
 }
@@ -57,8 +61,22 @@
 }
 
 /* --------------------container----------------- */
-.custom_container {
+.custome_container {
   max-width: 1164px;
   margin: 0px auto 0px auto;
   padding: 0px 12px 0px 12px;
+}
+@media (max-width: 576px) {
+  :root {
+    --fs-3xl: 44px;
+    --fs-2xl: 38px;
+    --fs-xl: 40px;
+    --fs-lg: 30px;
+    --fs-md: 34px;
+    --fs-sm: 24px;
+    --fs-xsm: 20px;
+    --fs-2xsm: 16px;
+    --fs-3xsm: 14px;
+    --fs-4xsm: 10px;
+  }
 }
