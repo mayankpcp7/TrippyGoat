@@ -45,13 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
   var acc = document.getElementsByClassName("accordion");
   var i;
 
-<<<<<<< HEAD
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function () {
-      // Accordion logic here
-    });
-  }
-=======
     // Accordion Functionality
     var acc = document.getElementsByClassName("accordion");
     var i;
@@ -60,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
         acc[i].addEventListener("click", function () {
         });
     }
->>>>>>> e64020715ad1e443e557026e18e7d0198daa399c
 });
 
 //--------------------------- accordion js--------------------------------//
