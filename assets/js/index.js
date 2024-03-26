@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function () {
-            // Accordion logic here
         });
     }
 });
+
 //--------------------------- accordion js--------------------------------//
 var acc = document.getElementsByClassName("accordion");
 var i;
