@@ -194,6 +194,40 @@ nav ul li a:hover {
     transform: translateX(calc(-250px * 7));
   }
 }
+/*-------------------------- back to top ---------------------------------*/
+
+.back_to_top_btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  z-index: 100;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.back_to_top_btn :hover {
+  background-color: #ff7d01;
+  border-radius: 50%;
+}
+
+/* -------------------------SCROLL BAR THUMB---------------------------------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff7d01;
+}
 /* --------------------------------------Media Quaries----------------------------------------- */
 @media (max-width: 1200px) {
   .center {
@@ -233,6 +267,14 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768.98px) {
+  .back_to_top_arrow {
+    width: 40px;
+    height: 40px;
+  }
+  .back_to_top_btn {
+    width: 40px;
+    height: 40px;
+  }
   .header_goat {
     max-width: 268px;
   }
@@ -246,6 +288,10 @@ nav ul li a:hover {
   .py_91 {
     padding-top: 0px;
     padding-bottom: 60px;
+  }
+  .back_to_top {
+    width: 40px;
+    height: 40px;
   }
 }
 @media (max-width: 576.98px) {

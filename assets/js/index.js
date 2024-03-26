@@ -45,14 +45,13 @@ document.addEventListener("DOMContentLoaded", function () {
   var acc = document.getElementsByClassName("accordion");
   var i;
 
-    // Accordion Functionality
-    var acc = document.getElementsByClassName("accordion");
-    var i;
+  // Accordion Functionality
+  var acc = document.getElementsByClassName("accordion");
+  var i;
 
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-        });
-    }
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {});
+  }
 });
 
 //--------------------------- accordion js--------------------------------//
@@ -84,3 +83,21 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+//------------------------------------- back to top ---------------------------//
+$(document).ready(function () {
+  var btn = $("#backToTopBtn");
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+      btn.fadeIn();
+    } else {
+      btn.fadeOut();
+    }
+  });
+
+  btn.on("click", function (e) {
+    e.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, "300");
+  });
+});
