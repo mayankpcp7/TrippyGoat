@@ -40,8 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-
-// //--------------------------- accordion js--------------------------------//
+//--------------------------- accordion js--------------------------------//
 var acc = document.getElementsByClassName("accordion");
 var i;
 
