@@ -275,7 +275,9 @@
       </section>
       <!-------------------------------------About Us------------------------------------------------ -->
       <section id="about" class="py_91 position-relative">
-        <span class="about_right_ellipse d-sm-flex d-none position-absolute d-flex"></span>
+        <span
+          class="about_right_ellipse d-sm-flex d-none position-absolute d-flex"
+        ></span>
         <div class="custome_container">
           <div
             class="d-flex min_h_515 flex-column ps-lg-5 pt-5 flex-lg-row align-items-center justify-content-between"
@@ -717,34 +719,47 @@
                   <div
                     class="counter d-flex align-items-center justify-content-center counter_gap mb-3"
                   >
-                    <img
-                      class="counterbtn"
-                      id="decrementBtn"
-                      src="./assets/images/webp/DecrementBtn.webp"
-                      alt="DecrementBtn"
-                    />
+                    <span class="position-relative">
+                      <img
+                        class="counterbtn z-1 position-relative"
+                        id="decrementBtn"
+                        src="./assets/images/webp/DecrementBtn.webp"
+                        alt="DecrementBtn"
+                      />
+                      <img
+                        class="position-absolute counter_border z-0"
+                        src="./assets/images/svg/CounterBtnBorder.svg"
+                        alt="border-img"
+                      />
+                    </span>
 
                     <span
                       id="count"
                       class="text-white ff_black_han_sans fs_lg lh_125 fw-normal"
                       >0 / 5656</span
                     >
-
-                    <img
-                      class="counterbtn"
-                      id="incrementBtn"
-                      src="./assets/images/webp/IncrementBtn.webp"
-                      alt="IncrementBtn"
-                    />
+                    <span class="position-relative">
+                      <img
+                        class="counterbtn z-1 position-relative"
+                        id="incrementBtn"
+                        src="./assets/images/webp/IncrementBtn.webp"
+                        alt="IncrementBtn"
+                      />
+                      <img
+                        class="position-absolute counter_border z-0"
+                        src="./assets/images/svg/CounterBtnBorder.svg"
+                        alt="border-img"
+                      />
+                    </span>
                   </div>
 
                   <p
-                    class="text-white fs_2xsm ff_mplus lh_144 mb-2 text-center fw-semibold pt-1"
+                    class="text_white fs_2xsm ff_mplus lh_144 mb-2 text-center fw-semibold pt-1"
                   >
                     Max 4 NFTs per transaction
                   </p>
                   <p
-                    class="text-white fs_2xsm ff_mplus lh_144 pb-5 mb-0 text-center fw-semibold"
+                    class="text_white fs_2xsm ff_mplus lh_144 pb-5 mb-0 text-center fw-semibold"
                   >
                     75 ADA per NFT
                   </p>
@@ -1063,7 +1078,12 @@
       id="topbtn"
       class="position-fixed backToTop transition_300 border-0 z_11 bg-transparent"
     >
-      <img class="wh_60 transition_300" src="./assets/images/png/BackToTop.png" alt="arrow" class="top_arrow" />
+      <img
+        class="wh_60 transition_300"
+        src="./assets/images/png/BackToTop.png"
+        alt="arrow"
+        class="top_arrow"
+      />
     </button>
     <!-------------------------------------------- j-quaries---------------------------------------->
     <script
