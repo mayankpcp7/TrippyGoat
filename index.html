@@ -17,267 +17,25 @@
   <link rel="icon" type="image/x-icon" href="./assets/images/png/NavLogo.png" />
 </head>
 
-              <!-- -------------------------Desktop Nav------------------------ -->
-              <div class="d-md-flex align-items-center d-none">
-                <ul class="d-flex align-items-center gap_20 mb-0 ps-0">
-                  <li>
-                    <a
-                      class="ff_mplus text_orange fs_3xsm fw-normal transition_300"
-                      href=" https://www.instagram.com/"
-                      >Home</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                      href="#about"
-                      >About</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                      href="#team"
-                      >Team</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                      href="#roadmap"
-                      >RoadMap</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                      href="#faq"
-                      >FAQ
-                    </a>
-                  </li>
-                </ul>
-                <div class="d-flex align-items-center ms-lg-5 ms-4 me-4 pe-1">
-                  <a target="_blank" href=" https://www.instagram.com/"
-                    ><img
-                      class="icons_hover cursor_pointer transition_300"
-                      src="./assets/images/svg/InstagramIcon.svg"
-                      alt="InstagramIcon"
-                  /></a>
-                  <a target="_blank" href=" https://discord.com/"
-                    ><img
-                      class="icons_hover cursor_pointer transition_300 mx-2"
-                      src="./assets/images/svg/DiscordIcon.svg"
-                      alt="DiscordIcon"
-                    />
-                  </a>
-                  <a target="_blank" href=" https://twitter.com/"
-                    ><img
-                      class="icons_hover cursor_pointer transition_300"
-                      src="./assets/images/svg/TwitterIcon.svg"
-                      alt="TwitterIcon"
-                    />
-                  </a>
-                </div>
-                <div class="position-relative nav_btn">
-                  <img
-                    class="position-absolute nav_btn_border"
-                    src="./assets/images/svg/BtnBorder.svg"
-                    alt=""
-                  />
-                  <button
-                    class="text-white position-relative z_10 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
-                  >
-                    Connect Wallet
-                  </button>
-                </div>
-              </div>
-              <!------------------------------Mobile Nav-------------------------->
-              <div
-                class="d-flex position-absolute start_100 transition_300 bottom-0 min-vh-100 w-100 bg-black gap-4 align-items-center justify-content-center z_10 flex-column d-md-none"
-                id="mobilenav"
-              >
-                <div
-                  class="cross_icon position-absolute top-0 end-0 mt-3 z-3"
-                  onclick="hidenav()"
-                ></div>
-                <ul
-                  class="d-flex align-items-center transition_300 flex-column justify-content-center gap-4 mb-0 ps-0"
-                >
-                  <li>
-                    <a
-                      onclick="hidenav()"
-                      class="ff_mplus text_orange fs_20 fw-normal transition_300"
-                      href="#home"
-                      >Home</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      onclick="hidenav()"
-                      class="ff_mplus text-white fs_20 fw-normal transition_300"
-                      href="#about"
-                      >About</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      onclick="hidenav()"
-                      class="ff_mplus text-white fs_20 fw-normal transition_300"
-                      href="#team"
-                      >Team</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      onclick="hidenav()"
-                      class="ff_mplus text-white fs_20 fw-normal transition_300"
-                      href="#roadmap"
-                      >RoadMap</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      onclick="hidenav()"
-                      class="ff_mplus text-white fs_20 fw-normal transition_300"
-                      href="#faq"
-                      >FAQ
-                    </a>
-                  </li>
-                </ul>
-                <div class="d-flex align-items-center">
-                  <a
-                    target="_blank"
-                    onclick="hidenav()"
-                    href=" https://www.instagram.com/"
-                    ><img
-                      class="icons_hover cursor_pointer transition_300"
-                      src="./assets/images/svg/InstagramIcon.svg"
-                      alt="InstagramIcon"
-                  /></a>
-                  <a
-                    target="_blank"
-                    onclick="hidenav()"
-                    href=" https://discord.com/"
-                    ><img
-                      class="icons_hover cursor_pointer transition_300 mx-2"
-                      src="./assets/images/svg/DiscordIcon.svg"
-                      alt="DiscordIcon"
-                  /></a>
-                  <a
-                    target="_blank"
-                    onclick="hidenav()"
-                    href=" https://twitter.com/"
-                    ><img
-                      class="icons_hover cursor_pointer transition_300"
-                      src="./assets/images/svg/TwitterIcon.svg"
-                      alt="TwitterIcon"
-                  /></a>
-                </div>
-                <div class="position-relative nav_btn">
-                  <img
-                    class="position-absolute nav_btn_border"
-                    src="./assets/images/svg/BtnBorder.svg"
-                    alt="border"
-                  />
-                  <button
-                    class="text-white position-relative z-10 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
-                  >
-                    Connect Wallet
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!-------------------------------------main-------------------------------- -->
-        <div class="d-flex pt-4 mt-3 justify-content-center">
-          <img
-            class="header_goat"
-            src="./assets/images/webp/HeaderGoat.webp"
-            alt="Goat"
-          />
-        </div>
-      </header>
-      <!------------------------------------Trippy Goat--------------------------------------------- -->
-      <section class="pb_110 position-relative z-3 px-2">
-        <img
-          class="position-absolute bottom-0 z-3 w-100"
-          src="./assets/images/webp/HeaderBottomLayer.webp"
-          alt="black layer"
-        />
-        <div class="position-relative z-3 px-1">
-          <img
-            class="position-absolute w-100 leaves_bg z-3 h_417 lh_125"
-            src="./assets/images/webp/LeavesBackground.webp"
-            alt="leaves"
-          />
-          <div
-            class="d-flex flex-column align-items-center z_10 justify-content-center"
-          >
-            <h1
-              class="fs_3xl text-center position-relative z-3 text-white ff_black_han_sans mt-5 pt-2"
-            >
-              Trippy Goat
-            </h1>
-            <p
-              class="trippy_goat_pera text-white position-relative z-3 text-center mx-auto ff_mplus"
-            >
-              Trippy Goats is a limited collection of 5656 Psychedelic goats,
-              randomly generated from over 40 hand drawn traits. Each goat comes
-              with ownership and commercial usage rights.
-            </p>
-            <div class="position-relative z_10 nav_btn mt-4">
-              <img
-                class="position-absolute nav_btn_border"
-                src="./assets/images/svg/BtnBorder.svg"
-                alt=""
-              />
-              <button
-                width="160"
-                class="text-white position-relative z_4 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
-              >
-                Mint Now
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-------------------------------------About Us------------------------------------------------ -->
-      <section id="about" class="py_91 position-relative">
-        <img
-          class="position-absolute d-xxl-block d-none trippy_goat_ellipse"
-          src="./assets/images/png/TrippyGoatEllipse.png"
-          alt="ellipse"
-        />
+<body class="body_color">
+  <div class="overflow-hidden">
+    <!-- ---------------------------------Header Section--------------------------------------------->
+    <header class="bg_header">
+      <!-- -----------------------------------nav----------------------------------->
+      <nav class="bg_nav w-100 py-2">
         <div class="custome_container">
-          <div
-            class="d-flex min_h_515 flex-column flex-lg-row align-items-center justify-content-between"
-          >
-            <!-- ------------------------stack cards------------------- -->
-
-            <div
-              class="position-relative min_h_400 translate-middle-x mt-5 mt-lg-0 ms-lg-5 ps-lg-5"
-            >
-              <img
-                class="center z-0 mw_366 position-absolute"
-                src="./assets/images/png/OrangeEllipse.png"
-                alt="ellipse"
-              />
-              <img
-                class="center z-1 position-absolute orange_goat"
-                src="./assets/images/svg/OrangeBgGoat.svg"
-                alt="OrangeBgGoat"
-              />
-              <img
-                class="z-2 black_goat center position-absolute"
-                src="./assets/images/svg/BlackGoat.svg"
-                alt="BlackGoat"
-              />
-              <img
-                class="center yellow_goat z-3 position-absolute"
-                src="./assets/images/svg/YellowGoat.svg"
-                alt=""
-              />
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex flex-column align-items-center">
+              <img class="cursor_pointer position-relative z-3 nav_logo" src="./assets/images/webp/NavLogo.webp"
+                alt="logo" />
+              <p class="ff_black_han_sans position-relative z-3 mt-1 text-white fw-normal fs_4xsm mb-0">
+                Trippy Goat
+              </p>
+            </div>
+            <div class="d-flex flex-column gap-2 nav_icon d-md-none" onclick="shownav()">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
 
             <!-- -------------------------Desktop Nav------------------------ -->
@@ -288,26 +46,30 @@
                     href=" https://www.instagram.com/">Home</a>
                 </li>
                 <li>
-                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">About</a>
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#about">About</a>
                 </li>
                 <li>
-                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">Team</a>
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#team">Team</a>
                 </li>
                 <li>
-                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">RoadMap</a>
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#roadmap">RoadMap</a>
                 </li>
                 <li>
-                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#">FAQ
+                  <a class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#faq">FAQ
                   </a>
                 </li>
               </ul>
-              <div class="d-flex align-items-center ms-5 me-4 pe-1">
-                <img class="icons_hover cursor_pointer transition_300" src="./assets/images/svg/InstagramIcon.svg"
-                  alt="InstagramIcon" />
-                <img class="icons_hover cursor_pointer transition_300 mx-2" src="./assets/images/svg/DiscordIcon.svg"
-                  alt="DiscordIcon" />
-                <img class="icons_hover cursor_pointer transition_300" src="./assets/images/svg/TwitterIcon.svg"
-                  alt="TwitterIcon" />
+              <div class="d-flex align-items-center ms-lg-5 ms-4 me-4 pe-1">
+                <a target="_blank" href=" https://www.instagram.com/"><img
+                    class="icons_hover cursor_pointer transition_300" src="./assets/images/svg/InstagramIcon.svg"
+                    alt="InstagramIcon" /></a>
+                <a target="_blank" href=" https://discord.com/"><img
+                    class="icons_hover cursor_pointer transition_300 mx-2" src="./assets/images/svg/DiscordIcon.svg"
+                    alt="DiscordIcon" />
+                </a>
+                <a target="_blank" href=" https://twitter.com/"><img class="icons_hover cursor_pointer transition_300"
+                    src="./assets/images/svg/TwitterIcon.svg" alt="TwitterIcon" />
+                </a>
               </div>
               <div class="position-relative nav_btn">
                 <img class="position-absolute nav_btn_border" src="./assets/images/svg/BtnBorder.svg" alt="" />
@@ -324,41 +86,41 @@
               <div class="cross_icon position-absolute top-0 end-0 mt-3 z-3" onclick="hidenav()"></div>
               <ul class="d-flex align-items-center transition_300 flex-column justify-content-center gap-4 mb-0 ps-0">
                 <li>
-                  <a onclick="hidenav()" class="ff_mplus text_orange fs_3xsm fw-normal transition_300"
+                  <a onclick="hidenav()" class="ff_mplus text_orange fs_20 fw-normal transition_300"
                     href="#home">Home</a>
                 </li>
                 <li>
-                  <a onclick="hidenav()" class="ff_mplus text-white fs_3xsm fw-normal transition_300"
-                    href="#aboutus">About</a>
+                  <a onclick="hidenav()" class="ff_mplus text-white fs_20 fw-normal transition_300"
+                    href="#about">About</a>
                 </li>
                 <li>
-                  <a onclick="hidenav()" class="ff_mplus text-white fs_3xsm fw-normal transition_300"
+                  <a onclick="hidenav()" class="ff_mplus text-white fs_20 fw-normal transition_300"
                     href="#team">Team</a>
                 </li>
                 <li>
-                  <a onclick="hidenav()" class="ff_mplus text-white fs_3xsm fw-normal transition_300"
+                  <a onclick="hidenav()" class="ff_mplus text-white fs_20 fw-normal transition_300"
                     href="#roadmap">RoadMap</a>
                 </li>
                 <li>
-                  <a onclick="hidenav()" class="ff_mplus text-white fs_3xsm fw-normal transition_300" href="#faq">FAQ
+                  <a onclick="hidenav()" class="ff_mplus text-white fs_20 fw-normal transition_300" href="#faq">FAQ
                   </a>
                 </li>
               </ul>
               <div class="d-flex align-items-center">
-                <a onclick="hidenav()" href=" https://www.instagram.com/"><img
+                <a target="_blank" onclick="hidenav()" href=" https://www.instagram.com/"><img
                     class="icons_hover cursor_pointer transition_300" src="./assets/images/svg/InstagramIcon.svg"
                     alt="InstagramIcon" /></a>
-                <a onclick="hidenav()" href=" https://discord.com/"><img
+                <a target="_blank" onclick="hidenav()" href=" https://discord.com/"><img
                     class="icons_hover cursor_pointer transition_300 mx-2" src="./assets/images/svg/DiscordIcon.svg"
                     alt="DiscordIcon" /></a>
-                <a onclick="hidenav()" href=" https://twitter.com/"><img
+                <a target="_blank" onclick="hidenav()" href=" https://twitter.com/"><img
                     class="icons_hover cursor_pointer transition_300" src="./assets/images/svg/TwitterIcon.svg"
                     alt="TwitterIcon" /></a>
               </div>
               <div class="position-relative nav_btn">
                 <img class="position-absolute nav_btn_border" src="./assets/images/svg/BtnBorder.svg" alt="border" />
                 <button
-                  class="text-white z_10 position-relative z-10 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal">
+                  class="text-white position-relative z-10 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal">
                   Connect Wallet
                 </button>
               </div>
@@ -378,7 +140,7 @@
       <div class="position-relative z-3 px-1">
         <img class="position-absolute w-100 leaves_bg z-3 h_417 lh_125" src="./assets/images/webp/LeavesBackground.webp"
           alt="leaves" />
-        <div class="d-flex flex-column relative align-items-center z_10 justify-content-center">
+        <div class="d-flex flex-column align-items-center z_10 justify-content-center">
           <h1 class="fs_3xl text-center position-relative z-3 text-white ff_black_han_sans mt-5 pt-2">
             Trippy Goat
           </h1>
@@ -390,7 +152,7 @@
           <div class="position-relative z_10 nav_btn mt-4">
             <img class="position-absolute nav_btn_border" src="./assets/images/svg/BtnBorder.svg" alt="" />
             <button width="160"
-              class="text-white z_10 position-relative z_10 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal">
+              class="text-white position-relative z_4 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal">
               Mint Now
             </button>
           </div>
@@ -398,14 +160,14 @@
       </div>
     </section>
     <!-------------------------------------About Us------------------------------------------------ -->
-    <section class="py_91 position-relative">
+    <section id="about" class="py_91 position-relative">
       <img class="position-absolute d-xxl-block d-none trippy_goat_ellipse"
         src="./assets/images/png/TrippyGoatEllipse.png" alt="ellipse" />
       <div class="custome_container">
         <div class="d-flex min_h_515 flex-column flex-lg-row align-items-center justify-content-between">
           <!-- ------------------------stack cards------------------- -->
 
-          <div class="position-relative min-h-400 translate-middle-x mt-5 mt-lg-0 py_515 ms-lg-5 ps-lg-5">
+          <div class="position-relative min_h_400 translate-middle-x mt-5 mt-lg-0 ms-lg-5 ps-lg-5">
             <img class="center z-0 mw_366 position-absolute" src="./assets/images/png/OrangeEllipse.png"
               alt="ellipse" />
             <img class="center z-1 position-absolute orange_goat" src="./assets/images/svg/OrangeBgGoat.svg"
@@ -420,7 +182,7 @@
             <h2 class="fs_2xl ff_black_han_sans text-lg-start text-center text-white">
               About Us
             </h2>
-            <p class="ff_mplus about_pera pb-4 fs_3xsm mb-3 mt-1 pt-2 text-lg-start text-center">
+            <p class="ff_mplus about_pera pb-lg-4 pb-3 fs_3xsm mb-3 mt-1 pt-2 text-lg-start text-center">
               Hi goaties call me legion with a pen. From an early age I was
               influenced by my selfless loving mother who inspired me to
               become a pet and art lover. As young as I was then, My mother
@@ -443,61 +205,186 @@
         </div>
       </div>
     </section>
+    <!------------------------------------------- Roadmap -------------------------------------------------------------->
+    <section id="roadmap" class="bg_black roadmap_sec_p position-relative">
+      <img class="roadmap_right_ellipse position-absolute" src="./assets/images/webp/RoadmapRightEllipse.webp"
+        alt="RoadmapRightEllipse" />
+      <img class="roadmap_right_vector position-absolute" src="./assets/images/webp/RoadmapRightVector.webp"
+        alt="RoadmapRightEllipse" />
+      <img class="roadmap_left_vector position-absolute" src="./assets/images/webp/RoadmapLeftVector.webp"
+        alt="RoadmapRightEllipse" />
+
+      <div class="custome_container">
+        <h2 class="ff_black_han_sans text-center lh_125 fs_2xl text-white mb-0 md-sm-4 mb-lg-5">
+          Roadmap
+        </h2>
+        <div class="pt-md-5 pt-4 d-flex align-items-center justify-content-center">
+          <div class="d-flex position-relative">
+            <div class="timeline">
+              <div class="timeline_dot position-absolute dot1"></div>
+              <div class="timeline_dot position-absolute dot2"></div>
+              <div class="timeline_dot position-absolute dot3"></div>
+            </div>
+
+            <div class="flex flex-column">
+              <!-------------------------------- Percentage card {10%} ---------------------------------------->
+              <div class="percentage_card">
+                <h3 class="ff_black_han_sans fs_xl mb-0 text_orange lh_125">
+                  10%
+                </h3>
+                <p class="ff_black_han_sans fs_sm mb-0 text-white lh_125 pt_10">
+                  Giveaway of Goat NFT
+                </p>
+                <p class="text-white lh_160 ff_mplus mb-0 fw-normal pt_10 pe-1">
+                  Feugiat felis, egestas cursus et ut lacus viverra.Rhoncus
+                  ornare tortor sociis vulputate arcu pellentesque eu ornare
+                  tempus. Et mi arcu quam tellus feugiat quisque urna velit.
+                </p>
+              </div>
+              <!-------------------------------- Percentage card {50%} ---------------------------------------->
+              <div class="percentage_card mt_8">
+                <h3 class="ff_black_han_sans fs_xl mb-0 text_orange lh_125">
+                  50%
+                </h3>
+                <p class="ff_black_han_sans fs_sm mb-0 text-white lh_125 pt_10">
+                  Merch store
+                </p>
+                <p class="text-white lh_160 ff_mplus mb-0 fw-normal pt_10">
+                  Adipiscing vehicula dui sollicitudin venenatis. A feugiat
+                  iaculis amet magna. Odio elementum, purus egestas convallis
+                  et vulputate. Dictumst vitae nulla aliquam, vivamus nunc.
+                  Volutpat nunc non platea mauris sem dui scelerisque.
+                </p>
+              </div>
+              <!-------------------------------- Percentage card {100%} ---------------------------------------->
+              <div class="percentage_card mt_8">
+                <h3 class="ff_black_han_sans fs_xl mb-0 text_orange lh_125">
+                  100%
+                </h3>
+                <p class="ff_black_han_sans fs_sm mb-0 text-white lh_125 pt_10">
+                  Giveaway of Goat NFT
+                </p>
+                <p class="text-white lh_160 ff_mplus mb-0 fw-normal pt_10">
+                  Condimentum tristique sit pretium ipsum. Et egestas
+                  venenatis consectetur ornare ipsum elementum nulla imperdiet
+                  imperdiet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ---------------------------------------------- Goat Images Slider------------------------------------------------ -->
     <section class="py-5">
-      <div class="d-flex justify-content-center overflow-y-hidden responsive">
-        <div class="d-flex flex-column pe-3 mt-5">
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatLinearBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
-        </div>
-
-        <div class="d-flex flex-column pe-3 mt-5 pt-5">
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatOrangeBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/WhiteGoatCyanBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/PurpleGoatPurpleBg.webp"
-            alt="goat-img" />
-        </div>
-        <div class="d-flex flex-column pe-3 mb-5 pb-2">
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatCyanBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatGreenBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 mb-5 scale_hover transition_300" src="./assets/images/webp/BlackGoatPurpleBg.webp"
-            alt="goat-img" />
-        </div>
-        <div class="d-flex flex-column pe-3 mt-5">
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BrownGoatPurpleBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreenEyesPurpleGoat.webp"
-            alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatOrangeBg.webp"
-            alt="goat-img" />
-        </div>
-        <div class="d-flex flex-column pe-3 mt-5 pt-5">
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatOrangeBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/WhiteGoatCyanBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/PurpleGoatPurpleBg.webp"
-            alt="goat-img" />
-        </div>
-        <div class="d-flex flex-column pe-3 mb-5 pb-2">
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatCyanBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatGreenBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 mb-5 scale_hover transition_300" src="./assets/images/webp/BlackGoatPurpleBg.webp"
-            alt="goat-img" />
-        </div>
-        <div class="d-flex flex-column mt-5">
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatLinearBg.webp"
-            alt="goat-img" />
-          <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
+      <div class="custome_container">
+        <div class="slider position-relative mw_1440">
+          <div class="d-flex slide_track justify-content-center overflow-y-hidden">
+            <div class="d-flex flex-column pe-3 mt-5">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatLinearBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mt-5 pt-5">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatOrangeBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/WhiteGoatCyanBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/PurpleGoatPurpleBg.webp"
+                alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mb-5 pb-2">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatCyanBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatGreenBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 mb-5 scale_hover transition_300" src="./assets/images/webp/BlackGoatPurpleBg.webp"
+                alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mt-5">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BrownGoatPurpleBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreenEyesPurpleGoat.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatOrangeBg.webp"
+                alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mt-5 pt-5">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatOrangeBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/WhiteGoatCyanBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/PurpleGoatPurpleBg.webp"
+                alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column mt-5">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatLinearBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mb-5 pb-2">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatCyanBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatGreenBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 mb-5 scale_hover transition_300" src="./assets/images/webp/BlackGoatPurpleBg.webp"
+                alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mt-5">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatLinearBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mt-5 pt-5">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatOrangeBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/WhiteGoatCyanBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/PurpleGoatPurpleBg.webp"
+                alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mb-5 pb-2">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatCyanBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatGreenBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 mb-5 scale_hover transition_300" src="./assets/images/webp/BlackGoatPurpleBg.webp"
+                alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mt-5">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BrownGoatPurpleBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreenEyesPurpleGoat.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatOrangeBg.webp"
+                alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mt-5 pt-5">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatOrangeBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/WhiteGoatCyanBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/PurpleGoatPurpleBg.webp"
+                alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column mt-5">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/YellowGoatLinearBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/GreyGoat.webp" alt="goat-img" />
+            </div>
+            <div class="d-flex flex-column pe-3 mb-5 pb-2">
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatCyanBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 scale_hover transition_300" src="./assets/images/webp/BlackGoatGreenBg.webp"
+                alt="goat-img" />
+              <img class="mw_203 mb-5 scale_hover transition_300" src="./assets/images/webp/BlackGoatPurpleBg.webp"
+                alt="goat-img" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -548,19 +435,19 @@
       </div>
     </section>
     <!---------------------------------------------Team section ----------------------------------------------------------->
-    <section class="team-section-bg-color team-section-padding">
+    <section id="team" class="team_section_bg_color team_section_padding">
       <div class="custome_container">
-        <h2 class="text-white fs_2xl fw-normal text-center ff-black-han-sans">
+        <h2 class="text-white fs_2xl fw-normal text-center ff_black_han_sans">
           Team
         </h2>
-        <div class="team-section-cards justify-content-center row position-relative">
-          <div class="team-card">
-            <div class="hover-img">
-              <img width="294px" height="293" class="w-100" src="./assets/images/png/TeamVilarImage.png"
-                alt="TeamArwenCoFounder" />
+        <div class="team_section_cards justify-content-center row position-relative z-2">
+          <div class="team_card">
+            <div class="hover_img">
+              <img width="294px" height="293" class="w-100" src="./assets/images/webp/TeamVilarImage.webp"
+                alt="TeamVilarFounder" />
             </div>
-            <span class="team-name-designation-box text-center border-left d-flex flex-column gap-1 align-items-center">
-              <h3 class="text-white d-inline-flex fs-xsm ff-black-han-sans">
+            <span class="team_name_designation_box text-center border_left d-flex flex-column gap-1 align-items-center">
+              <h3 class="text-white d-inline-flex fs-xsm ff_black_han_sans">
                 Vilar
               </h3>
               <p class="text-white d-inline-flex fs_3xsm f-m-plus fw-normal">
@@ -569,32 +456,32 @@
             </span>
           </div>
 
-          <div class="team-card">
-            <div class="hover-img">
-              <img width="294px" height="293" class="w-100" src="./assets/images/png/TeamArwenImage.png"
+          <div class="team_card">
+            <div class="hover_img">
+              <img width="294px" height="293" class="w-100" src="./assets/images/webp/TeamArwenImage.webp"
                 alt="TeamArwenCoFounder" />
             </div>
-            <span class="team-name-designation-box text-center d-flex flex-column gap-1 align-items-center">
-              <h3 class="text-white d-inline-flex fs-xsm ff-black-han-sans">
+            <span class="team_name_designation_box text-center d-flex flex-column gap-1 align-items-center">
+              <h3 class="text-white d-inline-flex fs-xsm ff_black_han_sans">
                 Arwen
               </h3>
-              <p class="text-white d-inline-flex fs_3xsm ff_mplus fw-normal">
+              <p class="text-white d-inline-flex fs_3xsm ff_m_plus fw-normal">
                 Co-founder & Designer
               </p>
             </span>
           </div>
 
-          <div class="team-card">
-            <div class="hover-img">
-              <img width="294px" height="293" class="w-100" src="./assets/images/png/TeamJohnImage.png"
-                alt="TeamArwenCoFounder" />
+          <div class="team_card">
+            <div class="hover_img">
+              <img width="294px" height="293" class="w-100" src="./assets/images/webp/TeamJohnImage.webp"
+                alt="TeamJohnDeveloper" />
             </div>
             <span
-              class="team-name-designation-box text-center border-right d-flex flex-column gap-1 align-items-center">
-              <h3 class="text-white d-inline-flex fs-xsm ff-black-han-sans">
+              class="team_name_designation_box text-center border_right d-flex flex-column gap-1 align-items-center">
+              <h3 class="text-white d-inline-flex fs-xsm ff_black_han_sans">
                 John
               </h3>
-              <p class="text-white d-inline-flex fs_3xsm ff_mplus fw-normal">
+              <p class="text-white d-inline-flex fs_3xsm ff_m_plus fw-normal">
                 Developer
               </p>
             </span>
@@ -603,132 +490,125 @@
       </div>
     </section>
     <!----------------------------------------------------- Faq Section ---------------------------------------------------->
-    <section class="faq_bg -mt_1 py-5">
-      <div class="max_width position-relative">
-        <img class="position-absolute faq_right_ellipse" src="./assets/images/webp/FaqRightEllipse.webp"
-          alt="FaqLeftEllipse" />
-        <img class="position-absolute faq_left_vector" src="./assets/images/webp/FaqRightVector.webp"
-          alt="FaqRightVector" />
-        <img class="position-absolute faq_left_ellipse" src="./assets/images/webp/FaqLeftEllipse.webp"
-          alt="FaqLeftEllipse" />
+    <section class="faq_bg -mt_1 position-relative" id="faq">
+      <img class="position-absolute faq_right_ellipse" src="./assets/images/webp/FaqRightEllipse.webp"
+        alt="FaqLeftEllipse" />
+      <img class="position-absolute faq_left_vector" src="./assets/images/webp/FaqLeftVector.webp"
+        alt="FaqRightVector" />
+      <img class="position-absolute faq_left_ellipse" src="./assets/images/webp/FaqLeftEllipse.webp"
+        alt="FaqLeftEllipse" />
 
-        <div class="custome_container position-relative z-3">
-          <div class="pt-2 text-center">
-            <h2 class="text-white fs_2xl mb-0 lh_125 ff_black_han_sans fw-normal pt-1">
-              FAQs
-            </h2>
+      <div class="custome_container position-relative z-3">
+        <div class="pt-2 text-center">
+          <h2 class="text-white fs_2xl mb-0 lh_125 ff_black_han_sans fw-normal pt-1">
+            FAQs
+          </h2>
+        </div>
+
+        <div class="mx-auto accordion_width accordion_padding">
+          <div class="mb-0">
+            <button class="accordion active btn1 d-flex justify-content-between">
+              <span class="ff_mplus fs_2xsm lh_144 fw-bold">What are Trippy Goats?</span>
+              <span><img class="accordion_arrow" src="./assets/images/png/AccordionArrow.png"
+                  alt="AccordionArrow" /></span>
+            </button>
+            <div class="panel">
+              <p class="ff_mplus fs_3xsm fw-normal lh_160 mb-1 pb-2">
+                Trippy goats are 5656 goats looking to trip with everyone in
+                the metaverse. This genesis collection will give exclusive
+                access to the trippyverse. The mission is to create a
+                community who seek the peak, while finding a peace of mind.
+                Save the world. Lets invade the blockchain farm while trippin
+              </p>
+            </div>
           </div>
 
-          <div class="mx-auto accordion_width accordion_padding">
-            <div class="mb-0">
-              <button class="accordion active btn1 d-flex justify-content-between">
-                <span class="ff_mplus fs_2xsm lh_144 fw-bold">What are Trippy Goats?</span>
-                <span><img class="accordion_arrow" src="./assets/images/png/AccordionArrow.png"
-                    alt="AccordionArrow" /></span>
-              </button>
-              <div class="panel">
-                <p class="ff_mplus fs_3xsm fw-normal lh_160 mb-1 pb-2">
-                  Trippy goats are 5656 goats looking to trip with everyone in
-                  the metaverse. This genesis collection will give exclusive
-                  access to the trippyverse. The mission is to create a
-                  community who seek the peak, while finding a peace of mind.
-                  Save the world. Lets invade the blockchain farm while
-                  trippin
-                </p>
-              </div>
+          <div class="mt-3 pt-1">
+            <button class="accordion d-flex justify-content-between btn1">
+              <span class="ff_mplus fs_2xsm lh_144 fw-bold">When will I be able to mint a trippy Goat NFT?</span>
+              <span><img class="accordion_arrow" src="./assets/images/png/AccordionArrow.png"
+                  alt="AccordionArrow" /></span>
+            </button>
+            <div class="panel">
+              <p class="ff_mplus fs_3xsm fw-normal lh_160 mb-1 pb-2">
+                Trippy goats are 5656 goats looking to trip with everyone in
+                the metaverse. This genesis collection will give exclusive
+                access to the trippyverse. The mission is to create a
+                community who seek the peak, while finding a peace of mind.
+                Save the world. Lets invade the blockchain farm while trippin
+              </p>
             </div>
+          </div>
 
-            <div class="mt-3 pt-1">
-              <button class="accordion d-flex justify-content-between btn1">
-                <span class="ff_mplus fs_2xsm lh_144 fw-bold">When will I be able to mint a trippy Goat NFT?</span>
-                <span><img class="accordion_arrow" src="./assets/images/png/AccordionArrow.png"
-                    alt="AccordionArrow" /></span>
-              </button>
-              <div class="panel">
-                <p class="ff_mplus fs_3xsm fw-normal lh_160 mb-1 pb-2">
-                  Trippy goats are 5656 goats looking to trip with everyone in
-                  the metaverse. This genesis collection will give exclusive
-                  access to the trippyverse. The mission is to create a
-                  community who seek the peak, while finding a peace of mind.
-                  Save the world. Lets invade the blockchain farm while
-                  trippin
-                </p>
-              </div>
+          <div class="mt-3 pt-1">
+            <button class="accordion d-flex justify-content-between btn1">
+              <span class="ff_mplus fs_2xsm lh_144 fw-bold">Why do I have to own a trippy Goat NFT?</span>
+              <span><img class="accordion_arrow" src="./assets/images/png/AccordionArrow.png"
+                  alt="AccordionArrow" /></span>
+            </button>
+            <div class="panel">
+              <p class="ff_mplus fs_3xsm fw-normal lh_160 mb-1 pb-2">
+                Trippy goats are 5656 goats looking to trip with everyone in
+                the metaverse. This genesis collection will give exclusive
+                access to the trippyverse. The mission is to create a
+                community who seek the peak, while finding a peace of mind.
+                Save the world. Lets invade the blockchain farm while trippin
+              </p>
             </div>
+          </div>
 
-            <div class="mt-3 pt-1">
-              <button class="accordion d-flex justify-content-between btn1">
-                <span class="ff_mplus fs_2xsm lh_144 fw-bold">Why do I have to own a trippy Goat NFT?</span>
-                <span><img class="accordion_arrow" src="./assets/images/png/AccordionArrow.png"
-                    alt="AccordionArrow" /></span>
-              </button>
-              <div class="panel">
-                <p class="ff_mplus fs_3xsm fw-normal lh_160 mb-1 pb-2">
-                  Trippy goats are 5656 goats looking to trip with everyone in
-                  the metaverse. This genesis collection will give exclusive
-                  access to the trippyverse. The mission is to create a
-                  community who seek the peak, while finding a peace of mind.
-                  Save the world. Lets invade the blockchain farm while
-                  trippin
-                </p>
-              </div>
+          <div class="mt-3 pt-1">
+            <button class="accordion d-flex justify-content-between btn1">
+              <span class="ff_mplus fs_2xsm lh_144 fw-bold">Do I need to know something else?</span>
+              <span><img class="accordion_arrow" src="./assets/images/png/AccordionArrow.png"
+                  alt="AccordionArrow" /></span>
+            </button>
+            <div class="panel">
+              <p class="ff_mplus fs_3xsm fw-normal lh_160 mb-1 pb-2">
+                Trippy goats are 5656 goats looking to trip with everyone in
+                the metaverse. This genesis collection will give exclusive
+                access to the trippyverse. The mission is to create a
+                community who seek the peak, while finding a peace of mind.
+                Save the world. Lets invade the blockchain farm while trippin
+              </p>
             </div>
+          </div>
 
-            <div class="mt-3 pt-1">
-              <button class="accordion d-flex justify-content-between btn1">
-                <span class="ff_mplus fs_2xsm lh_144 fw-bold">Do I need to know something else?</span>
-                <span><img class="accordion_arrow" src="./assets/images/png/AccordionArrow.png"
-                    alt="AccordionArrow" /></span>
-              </button>
-              <div class="panel">
-                <p class="ff_mplus fs_3xsm fw-normal lh_160 mb-1 pb-2">
-                  Trippy goats are 5656 goats looking to trip with everyone in
-                  the metaverse. This genesis collection will give exclusive
-                  access to the trippyverse. The mission is to create a
-                  community who seek the peak, while finding a peace of mind.
-                  Save the world. Lets invade the blockchain farm while
-                  trippin
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-3 pt-1">
-              <button class="accordion d-flex justify-content-between btn1">
-                <span class="ff_mplus fs_2xsm lh_144 fw-bold">Who’s the Team?</span>
-                <span><img class="accordion_arrow" src="./assets/images/png/AccordionArrow.png"
-                    alt="AccordionArrow" /></span>
-              </button>
-              <div class="panel">
-                <p class="ff_mplus fs_3xsm fw-normal lh_160 mb-1 pb-2">
-                  Trippy goats are 5656 goats looking to trip with everyone in
-                  the metaverse. This genesis collection will give exclusive
-                  access to the trippyverse. The mission is to create a
-                  community who seek the peak, while finding a peace of mind.
-                  Save the world. Lets invade the blockchain farm while
-                  trippin
-                </p>
-              </div>
+          <div class="mt-3 pt-1">
+            <button class="accordion d-flex justify-content-between btn1">
+              <span class="ff_mplus fs_2xsm lh_144 fw-bold">Who’s the Team?</span>
+              <span><img class="accordion_arrow" src="./assets/images/png/AccordionArrow.png"
+                  alt="AccordionArrow" /></span>
+            </button>
+            <div class="panel">
+              <p class="ff_mplus fs_3xsm fw-normal lh_160 mb-1 pb-2">
+                Trippy goats are 5656 goats looking to trip with everyone in
+                the metaverse. This genesis collection will give exclusive
+                access to the trippyverse. The mission is to create a
+                community who seek the peak, while finding a peace of mind.
+                Save the world. Lets invade the blockchain farm while trippin
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-------------------------------------------- Footer section ------------------------------------------->
-    <footer class="team-section-bg-color footer-padding footer-background position-relative overflow-hidden">
-      <div class="custome_container pos ition -relative z-2">
+    <footer class="team_section_bg_color -mt_1 footer_padding footer_background position-relative overflow-hidden">
+      <div class="custome_container position-relative z-2">
         <div class="d-flex flex-column align-items-center justify-content-center">
-          <span class="d-flex footer-company-logo flex-column align-items-center gap-3">
+          <a href="#" class="d-flex footer_company_logo flex-column align-items-center gap-3">
             <img src="./assets/images/svg/FooterLogo.svg" alt="" />
-            <p class="text-white fs_md ff-black-han-sans">Trippy Goat</p>
-          </span>
+            <p class="text-white fs_md ff_black_han_sans">Trippy Goat</p>
+          </a>
           <!-- fo oter logo -->
-          <p class="text-white ff_mplus fs_3xsm text-center footer-subline">
+          <p class="text-white ff_m_plus fs_3xsm text-center footer_subline">
             Vitae cras pellentesque amet, pretium ut consectetur pretium orci
             arcu. Aenean turpis ipsum nunc adipiscing fusce enim, eget rhoncus
             at.
           </p>
           <!-- footer social links -->
-          <div class="d-flex footer-social-links">
+          <div class="d-flex footer_social_links">
             <a href="https://www.instagram.com/" target="_blank">
               <img src="./assets/images/svg/FooterInstagramIcon.svg" alt="InstagramLogo" />
             </a>
@@ -739,19 +619,28 @@
           </div>
         </div>
       </div>
-      <p class="footer-copyright text-center ff_mplus fs_3xsm fw-normal">
+      <p class="footer_copyright text-center ff_m_plus f s_3xsm fw-normal">
         copyright@2024
       </p>
-      <span class="footer-left-blur-circle"></span>
-      <span class="footer-right-blur-circle"></span>
+      <span class="footer_left_blur_circle"></span>
+      <span class="footer_right_blur_circle"></span>
       <!-- footer grass left  -->
-      <img width="372" height="81" class="position-absolute bottom-0 footer-left-grass start-0"
+      <img width="372" height="81" class="position-absolute bottom-0 d-none d-lg-block footer_left_grass start-0"
         src="./assets/images/svg/FooterLeftGrass.svg" alt="Grass" />
       <!-- footer grass right -->
-      <img width="384" height="83" class="position-absolute footer-right-grass bottom-0 end-0"
+      <img width="384" height="83" class="position-absolute d-none d-lg-block footer_right_grass bottom-0 end-0"
         src="./assets/images/svg/FooterRightGrass.svg" alt="Grass" />
     </footer>
   </div>
+
+  <!-------------------------------------- back to top --------------------------------------->
+  <button id="backToTopBtn" class="back_to_top_btn p-0 transition_300">
+    <img class="transition_300 back_to_top_arrow" src="./assets/images/webp/BackToTop.webp" alt="back-to-top-btn" />
+  </button>
+  <!-------------------------------------------- j-quaries---------------------------------------->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- ---------------------------------------Bootstrap cdn---------------------------------------------->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -760,28 +649,4 @@
   <script src="./assets/js/index.js"></script>
 </body>
 
-    <!-------------------------------------- back to top --------------------------------------->
-    <button id="backToTopBtn" class="back_to_top_btn p-0 transition_300">
-      <img
-        class="transition_300 back_to_top_arrow"
-        src="./assets/images/webp/BackToTop.webp"
-        alt="back-to-top-btn"
-      />
-    </button>
-    <!-------------------------------------------- j-quaries---------------------------------------->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <!-- ---------------------------------------Bootstrap cdn---------------------------------------------->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <!-- -------------------------------------------js---------------------------------------------- -->
-    <script src="./assets/js/index.js"></script>
-  </body>
 </html>
