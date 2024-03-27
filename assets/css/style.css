@@ -229,7 +229,7 @@ nav ul li a:hover {
   background: #ff7d01;
 }
 /* --------------------------------------Media Quaries----------------------------------------- */
-@media (max-width: 1200px) {
+@media (max-width: 1200.98px) {
   .center {
     max-width: 260px !important;
   }
@@ -238,7 +238,7 @@ nav ul li a:hover {
     padding-bottom: 91px;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 992.98px) {
   .py_91 {
     padding-top: 0px;
     padding-bottom: 91px;
@@ -258,7 +258,7 @@ nav ul li a:hover {
   .orange_goat {
     transform: translateX(-95%) translateY(44%) !important;
   }
-  .min-h-400 {
+  .min_h_400 {
     min-height: 400px !important;
   }
   .y_10 {

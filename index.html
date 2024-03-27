@@ -17,25 +17,267 @@
   <link rel="icon" type="image/x-icon" href="./assets/images/png/NavLogo.png" />
 </head>
 
-<body class="body_color">
-  <div class="overflow-hidden">
-    <!-- ---------------------------------Header Section--------------------------------------------->
-    <header class="bg_header">
-      <!-- -----------------------------------nav----------------------------------->
-      <nav class="bg_nav w-100 py-2">
-        <div class="custome_container">
-          <div class="d-flex align-items-center justify-content-between">
-            <div class="d-flex flex-column align-items-center">
-              <img class="cursor_pointer position-relative z-3 nav_logo" src="./assets/images/webp/NavLogo.webp"
-                alt="logo" />
-              <p class="ff_black_han_sans position-relative z-3 mt-1 text-white fw-normal fs_4xsm mb-0">
-                Trippy Goat
-              </p>
+              <!-- -------------------------Desktop Nav------------------------ -->
+              <div class="d-md-flex align-items-center d-none">
+                <ul class="d-flex align-items-center gap_20 mb-0 ps-0">
+                  <li>
+                    <a
+                      class="ff_mplus text_orange fs_3xsm fw-normal transition_300"
+                      href=" https://www.instagram.com/"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="ff_mplus text-white fs_3xsm fw-normal transition_300"
+                      href="#about"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="ff_mplus text-white fs_3xsm fw-normal transition_300"
+                      href="#team"
+                      >Team</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="ff_mplus text-white fs_3xsm fw-normal transition_300"
+                      href="#roadmap"
+                      >RoadMap</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="ff_mplus text-white fs_3xsm fw-normal transition_300"
+                      href="#faq"
+                      >FAQ
+                    </a>
+                  </li>
+                </ul>
+                <div class="d-flex align-items-center ms-lg-5 ms-4 me-4 pe-1">
+                  <a target="_blank" href=" https://www.instagram.com/"
+                    ><img
+                      class="icons_hover cursor_pointer transition_300"
+                      src="./assets/images/svg/InstagramIcon.svg"
+                      alt="InstagramIcon"
+                  /></a>
+                  <a target="_blank" href=" https://discord.com/"
+                    ><img
+                      class="icons_hover cursor_pointer transition_300 mx-2"
+                      src="./assets/images/svg/DiscordIcon.svg"
+                      alt="DiscordIcon"
+                    />
+                  </a>
+                  <a target="_blank" href=" https://twitter.com/"
+                    ><img
+                      class="icons_hover cursor_pointer transition_300"
+                      src="./assets/images/svg/TwitterIcon.svg"
+                      alt="TwitterIcon"
+                    />
+                  </a>
+                </div>
+                <div class="position-relative nav_btn">
+                  <img
+                    class="position-absolute nav_btn_border"
+                    src="./assets/images/svg/BtnBorder.svg"
+                    alt=""
+                  />
+                  <button
+                    class="text-white position-relative z_10 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
+                  >
+                    Connect Wallet
+                  </button>
+                </div>
+              </div>
+              <!------------------------------Mobile Nav-------------------------->
+              <div
+                class="d-flex position-absolute start_100 transition_300 bottom-0 min-vh-100 w-100 bg-black gap-4 align-items-center justify-content-center z_10 flex-column d-md-none"
+                id="mobilenav"
+              >
+                <div
+                  class="cross_icon position-absolute top-0 end-0 mt-3 z-3"
+                  onclick="hidenav()"
+                ></div>
+                <ul
+                  class="d-flex align-items-center transition_300 flex-column justify-content-center gap-4 mb-0 ps-0"
+                >
+                  <li>
+                    <a
+                      onclick="hidenav()"
+                      class="ff_mplus text_orange fs_20 fw-normal transition_300"
+                      href="#home"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      onclick="hidenav()"
+                      class="ff_mplus text-white fs_20 fw-normal transition_300"
+                      href="#about"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      onclick="hidenav()"
+                      class="ff_mplus text-white fs_20 fw-normal transition_300"
+                      href="#team"
+                      >Team</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      onclick="hidenav()"
+                      class="ff_mplus text-white fs_20 fw-normal transition_300"
+                      href="#roadmap"
+                      >RoadMap</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      onclick="hidenav()"
+                      class="ff_mplus text-white fs_20 fw-normal transition_300"
+                      href="#faq"
+                      >FAQ
+                    </a>
+                  </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                  <a
+                    target="_blank"
+                    onclick="hidenav()"
+                    href=" https://www.instagram.com/"
+                    ><img
+                      class="icons_hover cursor_pointer transition_300"
+                      src="./assets/images/svg/InstagramIcon.svg"
+                      alt="InstagramIcon"
+                  /></a>
+                  <a
+                    target="_blank"
+                    onclick="hidenav()"
+                    href=" https://discord.com/"
+                    ><img
+                      class="icons_hover cursor_pointer transition_300 mx-2"
+                      src="./assets/images/svg/DiscordIcon.svg"
+                      alt="DiscordIcon"
+                  /></a>
+                  <a
+                    target="_blank"
+                    onclick="hidenav()"
+                    href=" https://twitter.com/"
+                    ><img
+                      class="icons_hover cursor_pointer transition_300"
+                      src="./assets/images/svg/TwitterIcon.svg"
+                      alt="TwitterIcon"
+                  /></a>
+                </div>
+                <div class="position-relative nav_btn">
+                  <img
+                    class="position-absolute nav_btn_border"
+                    src="./assets/images/svg/BtnBorder.svg"
+                    alt="border"
+                  />
+                  <button
+                    class="text-white position-relative z-10 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
+                  >
+                    Connect Wallet
+                  </button>
+                </div>
+              </div>
             </div>
-            <div class="d-flex flex-column gap-2 nav_icon d-md-none" onclick="shownav()">
-              <span></span>
-              <span></span>
-              <span></span>
+          </div>
+        </nav>
+        <!-------------------------------------main-------------------------------- -->
+        <div class="d-flex pt-4 mt-3 justify-content-center">
+          <img
+            class="header_goat"
+            src="./assets/images/webp/HeaderGoat.webp"
+            alt="Goat"
+          />
+        </div>
+      </header>
+      <!------------------------------------Trippy Goat--------------------------------------------- -->
+      <section class="pb_110 position-relative z-3 px-2">
+        <img
+          class="position-absolute bottom-0 z-3 w-100"
+          src="./assets/images/webp/HeaderBottomLayer.webp"
+          alt="black layer"
+        />
+        <div class="position-relative z-3 px-1">
+          <img
+            class="position-absolute w-100 leaves_bg z-3 h_417 lh_125"
+            src="./assets/images/webp/LeavesBackground.webp"
+            alt="leaves"
+          />
+          <div
+            class="d-flex flex-column align-items-center z_10 justify-content-center"
+          >
+            <h1
+              class="fs_3xl text-center position-relative z-3 text-white ff_black_han_sans mt-5 pt-2"
+            >
+              Trippy Goat
+            </h1>
+            <p
+              class="trippy_goat_pera text-white position-relative z-3 text-center mx-auto ff_mplus"
+            >
+              Trippy Goats is a limited collection of 5656 Psychedelic goats,
+              randomly generated from over 40 hand drawn traits. Each goat comes
+              with ownership and commercial usage rights.
+            </p>
+            <div class="position-relative z_10 nav_btn mt-4">
+              <img
+                class="position-absolute nav_btn_border"
+                src="./assets/images/svg/BtnBorder.svg"
+                alt=""
+              />
+              <button
+                width="160"
+                class="text-white position-relative z_4 transition_300 bg_orange nav_btn d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
+              >
+                Mint Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------------------------------About Us------------------------------------------------ -->
+      <section id="about" class="py_91 position-relative">
+        <img
+          class="position-absolute d-xxl-block d-none trippy_goat_ellipse"
+          src="./assets/images/png/TrippyGoatEllipse.png"
+          alt="ellipse"
+        />
+        <div class="custome_container">
+          <div
+            class="d-flex min_h_515 flex-column flex-lg-row align-items-center justify-content-between"
+          >
+            <!-- ------------------------stack cards------------------- -->
+
+            <div
+              class="position-relative min_h_400 translate-middle-x mt-5 mt-lg-0 ms-lg-5 ps-lg-5"
+            >
+              <img
+                class="center z-0 mw_366 position-absolute"
+                src="./assets/images/png/OrangeEllipse.png"
+                alt="ellipse"
+              />
+              <img
+                class="center z-1 position-absolute orange_goat"
+                src="./assets/images/svg/OrangeBgGoat.svg"
+                alt="OrangeBgGoat"
+              />
+              <img
+                class="z-2 black_goat center position-absolute"
+                src="./assets/images/svg/BlackGoat.svg"
+                alt="BlackGoat"
+              />
+              <img
+                class="center yellow_goat z-3 position-absolute"
+                src="./assets/images/svg/YellowGoat.svg"
+                alt=""
+              />
             </div>
 
             <!-- -------------------------Desktop Nav------------------------ -->
@@ -518,4 +760,28 @@
   <script src="./assets/js/index.js"></script>
 </body>
 
+    <!-------------------------------------- back to top --------------------------------------->
+    <button id="backToTopBtn" class="back_to_top_btn p-0 transition_300">
+      <img
+        class="transition_300 back_to_top_arrow"
+        src="./assets/images/webp/BackToTop.webp"
+        alt="back-to-top-btn"
+      />
+    </button>
+    <!-------------------------------------------- j-quaries---------------------------------------->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- ---------------------------------------Bootstrap cdn---------------------------------------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- -------------------------------------------js---------------------------------------------- -->
+    <script src="./assets/js/index.js"></script>
+  </body>
 </html>
