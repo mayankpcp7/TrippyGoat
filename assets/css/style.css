@@ -212,18 +212,18 @@ nav ul li a:hover {
 /*-------------------------- back to top ---------------------------------*/
 
 .backToTop {
-    right: 30px;
-    bottom: 30px;
-    display: none;
-    z-index: 20;
+  right: 30px;
+  bottom: 30px;
+  display: none;
+  z-index: 20;
 }
-.wh_60{
+.wh_60 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
 }
-.backToTop:hover{
-  transform: scale(.9);
+.backToTop:hover {
+  transform: scale(0.9);
 }
 /* -------------------------SCROLL BAR THUMB---------------------------------- */
 ::-webkit-scrollbar {
@@ -253,6 +253,14 @@ nav ul li a:hover {
   }
 }
 @media (max-width: 992.98px) {
+  .wh_60 {
+    width: 40px;
+    height: 40px;
+  }
+  .backToTop {
+  right: 10px;
+  bottom: 15px;
+}
   .py_91 {
     padding-top: 0px;
     padding-bottom: 91px;
