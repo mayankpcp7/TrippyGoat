@@ -34,15 +34,10 @@
             <div class="d-flex align-items-center justify-content-between">
               <div class="d-flex flex-column align-items-center">
                 <img
-                  class="cursor_pointer position-relative z-3 nav_logo"
+                  class="nav_logo"
                   src="./assets/images/webp/NavLogo.webp"
-                  alt="logo"
+                  alt=""
                 />
-                <p
-                  class="ff_black_han_sans position-relative z-3 mt-1 text-white fw-normal fs_4xsm mb-0"
-                >
-                  Trippy Goat
-                </p>
               </div>
               <div
                 class="d-flex flex-column gap-2 nav_icon d-md-none"
@@ -226,18 +221,18 @@
           </div>
         </nav>
         <!-------------------------------------main-------------------------------- -->
-        <div class="d-flex pt-4 mt-3 justify-content-center">
+        <main class="d-flex pt-4 mt-3 justify-content-center min_h_550">
           <img
             class="header_goat"
             src="./assets/images/webp/HeaderGoat.webp"
             alt="Goat"
           />
-        </div>
+        </main>
       </header>
       <!------------------------------------Trippy Goat--------------------------------------------- -->
-      <section class="pb_110 position-relative z-3 px-2">
+      <section class="pb_110 position-relative z-0 px-2">
         <img
-          class="position-absolute bottom-0 z-3 w-100"
+          class="position-absolute header_bottom_layer z-3 w-100"
           src="./assets/images/webp/HeaderBottomLayer.webp"
           alt="black layer"
         />
@@ -251,18 +246,18 @@
             class="d-flex flex-column align-items-center z_10 justify-content-center"
           >
             <h1
-              class="fs_3xl text-center position-relative z-3 text-white ff_black_han_sans mt-5 pt-2"
+              class="fs_3xl text-center position-relative z-3 text-white ff_black_han_sans mt-5"
             >
               Trippy Goat
             </h1>
             <p
-              class="trippy_goat_pera text-white position-relative z-3 text-center mx-auto ff_mplus"
+              class="trippy_goat_pera text-white position-relative z-3 text-center py-4 mx-auto ff_mplus"
             >
               Trippy Goats is a limited collection of 5656 Psychedelic goats,
               randomly generated from over 40 hand drawn traits. Each goat comes
-              with ownership and commercial usage rights.
+              with ownership and commercial usage righta.
             </p>
-            <div class="position-relative z_10 nav_btn mt-4">
+            <div class="position-relative z_10 nav_btn mt-3">
               <img
                 class="position-absolute nav_btn_border"
                 src="./assets/images/svg/BtnBorder.svg"
@@ -280,19 +275,15 @@
       </section>
       <!-------------------------------------About Us------------------------------------------------ -->
       <section id="about" class="py_91 position-relative">
-        <img
-          class="position-absolute d-xxl-block d-none trippy_goat_ellipse"
-          src="./assets/images/png/TrippyGoatEllipse.png"
-          alt="ellipse"
-        />
+        <span class="about_right_ellipse position-absolute d-flex"></span>
         <div class="custome_container">
           <div
-            class="d-flex min_h_515 flex-column flex-lg-row align-items-center justify-content-between"
+            class="d-flex min_h_515 flex-column ps-lg-5 pt-5 flex-lg-row align-items-center justify-content-between"
           >
             <!-- ------------------------stack cards------------------- -->
 
             <div
-              class="position-relative min_h_400 translate-middle-x mt-5 mt-lg-0 ms-lg-5 ps-lg-5"
+              class="position-relative min_h_400 translate-middle-x mt-5 pt-5 mt-lg-0 ms-lg-5 ps-lg-5"
             >
               <img
                 class="center z-0 mw_366 position-absolute"
@@ -326,7 +317,7 @@
                 About Us
               </h2>
               <p
-                class="ff_mplus pt-lg-4 about_pera pb-lg-4 pb-3 fs_3xsm mb-3 mt-1 pt-2 text-lg-start text-center"
+                class="ff_mplus about_pera pb-lg-4 pb-3 fs_3xsm mb-3 mt-1 pt-2 text-lg-start text-center"
               >
                 Hi goaties call me legion with a pen. From an early age I was
                 influenced by my selfless loving mother who inspired me to
@@ -347,7 +338,7 @@
                 <button
                   class="text-white read_btn position-relative z-3 transition_300 bg_orange d-flex justify-content-center align-items-center border-none lh_150 ff_black_han_sans fw-normal"
                 >
-                  Read more
+                  Read More
                 </button>
               </div>
             </div>
@@ -400,7 +391,7 @@
                     Giveaway of Goat NFT
                   </p>
                   <p
-                    class="text-white lh_160 ff_mplus mb-0 fw-normal pt_10 pe-1"
+                    class="text_grey lh_160 ff_mplus mb-0 fw-normal pt_10 pe-1"
                   >
                     Feugiat felis, egestas cursus et ut lacus viverra.Rhoncus
                     ornare tortor sociis vulputate arcu pellentesque eu ornare
@@ -417,7 +408,7 @@
                   >
                     Merch store
                   </p>
-                  <p class="text-white lh_160 ff_mplus mb-0 fw-normal pt_10">
+                  <p class="text_grey lh_160 ff_mplus mb-0 fw-normal pt_10">
                     Adipiscing vehicula dui sollicitudin venenatis. A feugiat
                     iaculis amet magna. Odio elementum, purus egestas convallis
                     et vulputate. Dictumst vitae nulla aliquam, vivamus nunc.
@@ -434,7 +425,7 @@
                   >
                     Giveaway of Goat NFT
                   </p>
-                  <p class="text-white lh_160 ff_mplus mb-0 fw-normal pt_10">
+                  <p class="text_grey lh_160 ff_mplus mb-0 fw-normal pt_10">
                     Condimentum tristique sit pretium ipsum. Et egestas
                     venenatis consectetur ornare ipsum elementum nulla imperdiet
                     imperdiet.
@@ -1003,9 +994,7 @@
         </div>
       </section>
       <!-------------------------------------------- Footer section ------------------------------------------->
-      <footer
-        class="team_section_bg_color -mt_1 footer_padding footer_background position-relative overflow-hidden"
-      >
+      <footer class="-mt_1 footer_padding footer_background position-relative">
         <div class="custome_container position-relative z-2">
           <div
             class="d-flex flex-column align-items-center justify-content-center"
@@ -1069,12 +1058,12 @@
     </div>
 
     <!-------------------------------------- back to top --------------------------------------->
-    <button id="backToTopBtn" class="back_to_top_btn p-0 transition_300">
-      <img
-        class="transition_300 back_to_top_arrow"
-        src="./assets/images/webp/BackToTop.webp"
-        alt="back-to-top-btn"
-      />
+    <button
+      onclick="backToTop()"
+      id="topbtn"
+      class="position-fixed backToTop transition_300 border-0 z_11 bg-transparent"
+    >
+      <img class="wh_60 transition_300" src="./assets/images/png/BackToTop.png" alt="arrow" class="top_arrow" />
     </button>
     <!-------------------------------------------- j-quaries---------------------------------------->
     <script

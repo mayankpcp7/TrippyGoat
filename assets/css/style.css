@@ -6,6 +6,7 @@
 .bg_header {
   background: url(../images/webp/HeaderBg.webp);
   background-size: cover;
+  background-position: start;
 }
 .body_color {
   background-color: #1d1d1e;
@@ -18,10 +19,14 @@ nav ul li a:hover {
   color: #ff7d01 !important;
 }
 .bg_nav {
-  background: url(../images/png/NavBg.png);
+  background: #0000006a;
+  backdrop-filter: blur(60px);
 }
 .nav_logo {
-  max-width: 49.33px;
+  max-width: 64px;
+}
+.navlogo_stroke {
+  font-weight: 400 !important;
 }
 .text_orange {
   color: #ff7d01;
@@ -102,9 +107,13 @@ nav ul li a:hover {
 /* ----------------------------------main----------------------------------- */
 .header_goat {
   max-width: 385.87px;
+  margin-left: 122px;
 }
 .mt_100 {
   margin-top: 100px;
+}
+.min_h_550 {
+  min-height: 550px;
 }
 /* -------------------------------Trippy Goat ----------------------------- */
 .leaves_bg {
@@ -163,14 +172,20 @@ nav ul li a:hover {
 .min_h_515 {
   min-height: 515px;
 }
-.trippy_goat_ellipse {
-  position: absolute;
-  right: -80%;
-  top: -90%;
-  z-index: 3;
+.about_right_ellipse {
+  width: 304px;
+  height: 304px;
+  background-color: #fdfe7c;
+  border-radius: 50%;
+  filter: blur(245px);
+  right: -5%;
+  top: -30%;
 }
 .z_4 {
   z-index: 4;
+}
+.header_bottom_layer {
+  bottom: 3%;
 }
 /* -------------------------------------Goat Slider---------------------------------------- */
 .mw_203 {
@@ -187,33 +202,29 @@ nav ul li a:hover {
 
 /* // Animation */
 @keyframes scroll {
-  0% {
+  100% {
     transform: translateX(0);
   }
-  100% {
+  0% {
     transform: translateX(calc(-250px * 7));
   }
 }
 /*-------------------------- back to top ---------------------------------*/
 
-.back_to_top_btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: none;
-  border: none;
-  border-radius: 50%;
+.backToTop {
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    z-index: 20;
+}
+.wh_60{
   width: 60px;
   height: 60px;
-  z-index: 100;
-  cursor: pointer;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-.back_to_top_btn :hover {
-  background-color: #ff7d01;
   border-radius: 50%;
 }
-
+.backToTop:hover{
+  transform: scale(.9);
+}
 /* -------------------------SCROLL BAR THUMB---------------------------------- */
 ::-webkit-scrollbar {
   width: 10px;
@@ -237,16 +248,16 @@ nav ul li a:hover {
     padding-top: 30px;
     padding-bottom: 91px;
   }
+  .min_h_550 {
+    min-height: unset;
+  }
 }
 @media (max-width: 992.98px) {
   .py_91 {
     padding-top: 0px;
     padding-bottom: 91px;
   }
-  .about_pera {
-    max-width: 760px;
-    color: #bbbbbb;
-  }
+
   .center {
     transform: translateY(0%) translateX(-50%);
     top: 0%;
@@ -267,6 +278,14 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768.98px) {
+  .header_goat {
+    max-width: 268px;
+    margin: 0px;
+  }
+  .bg_nav {
+    background: #0000006a;
+    backdrop-filter: none !important;
+  }
   .back_to_top_arrow {
     width: 40px;
     height: 40px;

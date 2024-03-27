@@ -84,20 +84,24 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-//------------------------------------- back to top ---------------------------//
-$(document).ready(function () {
-  var btn = $("#backToTopBtn");
+//------------------------------------- back to top ---------------------------/
+        const topbtn = document.getElementById('topbtn');
+        window.onscroll = function () { topscroll() };
 
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 300) {
-      btn.fadeIn();
-    } else {
-      btn.fadeOut();
-    }
-  });
+        function topscroll() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                topbtn.style.display = "block";
+            }
+            else {
+                topbtn.style.display = "none";
+            }
+        }
 
-  btn.on("click", function (e) {
-    e.preventDefault();
-    $("html, body").animate({ scrollTop: 0 }, "300");
-  });
-});
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+//-------------------------------------------- year function ----------------------------------------//
+const yearSpan = document.getElementById('year');
+const currentYear = new Date().getFullYear();
+yearSpan.innerText = currentYear;
