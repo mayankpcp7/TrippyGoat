@@ -26,7 +26,7 @@
 
 /*------------------------------------------------ roadmap -------------------------------------------------*/
 .roadmap_sec_p {
-  padding: 60px 0px;
+  padding: 60px 0px 108px;
 }
 
 .text_grey {
@@ -129,6 +129,15 @@
 .lh_160 {
   line-height: 160%;
 }
+.mft_right_ellipse {
+  width: 304px;
+  height: 304px;
+  background-color: #fdfe7c;
+  border-radius: 50%;
+  right: 0%;
+  top: -10%;
+  filter: blur(200px);
+}
 
 /*------------------------------------------ counterbox css -------------------------------------------------------*/
 .counterbox {
@@ -192,8 +201,8 @@
 
 .faq_left_vector {
   max-width: 327px !important;
-  left: -6%;
-  top: 25%;
+  left: -3%;
+  top: 45%;
 }
 
 /*-------------------------------------------------------- accordion css ---------------------------------------------------*/
@@ -266,6 +275,10 @@
     padding: 80px 0px;
   }
 
+  .roadmap_sec_p {
+    padding: 60px 0px 80px;
+  }
+
   .faq_left_vector {
     max-width: 180px !important;
     left: -5%;
@@ -293,6 +306,9 @@
 }
 
 @media (max-width: 991.98px) {
+  .roadmap_sec_p {
+    padding: 60px 0px;
+  }
   .mint_now_section {
     padding: 70px 0px;
   }
