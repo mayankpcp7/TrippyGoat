@@ -122,8 +122,8 @@ nav ul li a:hover {
 .trippy_goat_pera {
   max-width: 558px;
 }
-.pb_110 {
-  margin-bottom: 110px;
+.pb_60 {
+  margin-bottom: 60px;
 }
 
 .h_417 {
@@ -218,9 +218,9 @@ nav ul li a:hover {
   display: none;
   z-index: 20;
 }
-.wh_60 {
-  width: 60px;
-  height: 60px;
+.wh_45 {
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
 }
 .backToTop:hover {
@@ -310,7 +310,7 @@ nav ul li a:hover {
     right: -57%;
     bottom: -7%;
   }
-  .pb_110 {
+  .pb_60 {
     margin-bottom: 70px;
   }
   .py_91 {
@@ -327,7 +327,7 @@ nav ul li a:hover {
     padding-top: 10px;
     padding-bottom: 48px;
   }
-  .pb_110 {
+  .pb_60 {
     margin-bottom: 0px;
   }
   .black_goat {
