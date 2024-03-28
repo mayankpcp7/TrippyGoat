@@ -504,7 +504,6 @@ nav ul li a:hover {
   padding: 17px 0px 155px;
 }
 
-
 /*------------------------------------------------------------ faq bg -----------------------------------------------------*/
 .faq_bg {
   background: url(/assets/images/webp/FaqBg.webp);
@@ -917,7 +916,7 @@ nav ul li a:hover {
 
   .team_section_cards {
     padding-top: 24px;
-    gap: 16px;
+    gap: 24px;
   }
 
   .footer_left_grass svg {
