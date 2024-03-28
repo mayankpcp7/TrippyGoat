@@ -65,10 +65,6 @@
   margin-left: 70px;
 }
 
-.text_grey {
-  color: #c1c1c0;
-}
-
 .timeline {
   position: absolute;
   width: 1px;
@@ -257,7 +253,7 @@
   background-color: #ffffff17;
   color: #d7d7d7;
   max-height: 0;
-  transition: all 0.3s ease-in-out;
+  transition: all 300ms linear;
 }
 
 .active+.panel {
