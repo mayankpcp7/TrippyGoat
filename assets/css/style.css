@@ -189,7 +189,7 @@ nav ul li a:hover {
 }
 /* -------------------------------------Goat Slider---------------------------------------- */
 .mw_215 {
-  max-width: 215px;
+  max-width: 215px !important;
 }
 .scale_hover:hover {
   transform: scale(0.9);
