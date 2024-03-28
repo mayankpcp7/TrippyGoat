@@ -53,7 +53,9 @@
 .fs_20 {
   font-size: 20px;
 }
-
+.yellow_ellipse {
+  background-color: #fdfe7c;
+}
 /* --------------------font families---------- */
 .ff_mplus {
   font-family: "M PLUS 1", sans-serif;
