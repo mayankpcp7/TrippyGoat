@@ -190,6 +190,7 @@ nav ul li a:hover {
 /* -------------------------------------Goat Slider---------------------------------------- */
 .mw_215 {
   max-width: 215px !important;
+  cursor: pointer;
 }
 .scale_hover:hover {
   transform: scale(0.9);
@@ -258,9 +259,9 @@ nav ul li a:hover {
     height: 40px;
   }
   .backToTop {
-  right: 10px;
-  bottom: 15px;
-}
+    right: 10px;
+    bottom: 15px;
+  }
   .py_91 {
     padding-top: 0px;
     padding-bottom: 91px;
