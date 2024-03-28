@@ -12,6 +12,10 @@
   color: #ff7d01;
 }
 
+.text_white {
+  color: #dedbd6;
+}
+
 .pt_10 {
   padding-top: 10px;
 }
@@ -22,11 +26,15 @@
 
 /*------------------------------------------------ roadmap -------------------------------------------------*/
 .roadmap_sec_p {
-  padding: 60px 0px;
+  padding: 60px 0px 108px;
+}
+
+.text_grey {
+  color: #c1c1c0;
 }
 
 .roadmap_right_ellipse {
-  top: -20%;
+  top: -27%;
   left: -25%;
   max-width: 1000px;
 }
@@ -38,7 +46,7 @@
 }
 
 .roadmap_right_vector {
-  top: -7%;
+  top: -11%;
   right: -5%;
   max-width: 210px;
 }
@@ -126,6 +134,16 @@
   line-height: 160%;
 }
 
+.mft_right_ellipse {
+  width: 304px;
+  height: 304px;
+  background-color: #fdfe7c;
+  border-radius: 50%;
+  right: 0%;
+  top: -10%;
+  filter: blur(200px);
+}
+
 /*------------------------------------------ counterbox css -------------------------------------------------------*/
 .counterbox {
   border: 1px solid #665c47;
@@ -145,6 +163,13 @@
 
 .counter_gap {
   gap: 35px;
+}
+
+.counter_border {
+  top: -1px;
+  left: -3px;
+  height: 30px;
+  width: 30px;
 }
 
 .mint_now_btn {
@@ -183,8 +208,8 @@
 
 .faq_left_vector {
   max-width: 327px !important;
-  left: -6%;
-  top: 25%;
+  left: -3%;
+  top: 45%;
 }
 
 /*-------------------------------------------------------- accordion css ---------------------------------------------------*/
@@ -257,6 +282,10 @@
     padding: 80px 0px;
   }
 
+  .roadmap_sec_p {
+    padding: 60px 0px 80px;
+  }
+
   .faq_left_vector {
     max-width: 180px !important;
     left: -5%;
@@ -265,21 +294,31 @@
   .nft_goat_img {
     max-width: 320px;
   }
+
+  .roadmap_left_vector {
+    top: 88%;
+    left: -5%;
+    max-width: 150px;
+  }
+
+  .roadmap_right_vector {
+    top: -5%;
+    right: -5%;
+    max-width: 170px;
+  }
 }
 
 @media (max-width: 1023.98px) {
   .mint_now_section {
     padding: 80px 0px;
   }
-
-  .roadmap_left_vector {
-    top: 60%;
-    left: -5%;
-    max-width: 200px;
-  }
 }
 
 @media (max-width: 991.98px) {
+  .roadmap_sec_p {
+    padding: 60px 0px;
+  }
+
   .mint_now_section {
     padding: 70px 0px;
   }
@@ -298,12 +337,6 @@
     left: -25%;
     max-width: 700px;
   }
-
-  .roadmap_right_vector {
-    top: -5%;
-    right: -5%;
-    max-width: 170px;
-  }
 }
 
 @media (max-width: 767.98px) {
@@ -312,7 +345,6 @@
     min-height: 235px;
     border-radius: 8px;
     padding: 24px 0px 24px;
-
   }
 
   .mint_now_section {
