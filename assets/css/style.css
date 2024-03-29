@@ -131,7 +131,7 @@ nav ul li a:hover {
   margin-left: 122px;
 }
 
-.min_h_550 {
+.main {
   min-height: 550px;
 }
 
@@ -198,7 +198,7 @@ nav ul li a:hover {
   transform: translateX(-35%) translateY(-34%) !important;
 }
 
-.min_h_515 {
+.about_us {
   min-height: 515px;
 }
 
@@ -629,7 +629,7 @@ nav ul li a:hover {
     padding: 30px 0px 91px;
   }
 
-  .min_h_550 {
+  .main {
     min-height: unset;
   }
 
@@ -736,7 +736,7 @@ nav ul li a:hover {
     transform: translateX(-95%) translateY(44%) !important;
   }
 
-  .min_h_400 {
+  .about_cards {
     min-height: 400px !important;
   }
 
