@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var i;
 
   for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function () {});
+    acc[i].addEventListener("click", function () { });
   }
 });
 
@@ -85,22 +85,22 @@ for (i = 0; i < acc.length; i++) {
 }
 
 //------------------------------------- back to top ---------------------------/
-        const topbtn = document.getElementById('topbtn');
-        window.onscroll = function () { topscroll() };
+const topbtn = document.getElementById('topbtn');
+window.onscroll = function () { topscroll() };
 
-        function topscroll() {
-            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                topbtn.style.display = "block";
-            }
-            else {
-                topbtn.style.display = "none";
-            }
-        }
+function topscroll() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    topbtn.style.display = "block";
+  }
+  else {
+    topbtn.style.display = "none";
+  }
+}
 
-        function backToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 //-------------------------------------------- year function ----------------------------------------//
 const yearSpan = document.getElementById('year');
 const currentYear = new Date().getFullYear();
