@@ -3,6 +3,7 @@
 * {
   text-decoration: none !important;
   list-style-type: none;
+  margin-bottom: 0px !important;
 }
 
 .bg_header {
@@ -476,7 +477,7 @@ nav ul li a:hover {
   max-height: 0;
 }
 
-.active+.panel {
+.active + .panel {
   border: 1px solid #ffffff5f;
   max-height: 700px;
   width: 100%;
