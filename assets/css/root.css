@@ -104,15 +104,8 @@
 
 @media (max-width: 576px) {
   :root {
-    --fs-3xl: 44px;
-    --fs-2xl: 38px;
-    --fs-xl: 39px;
-    --fs-lg: 30px;
-    --fs-md: 28px;
-    --fs-sm: 20px;
-    --fs-xsm: 18px;
-    --fs-2xsm: 16px;
-    --fs-3xsm: 14px;
-    --fs-4xsm: 10px;
+    --fs-3xl: 39px;
+    --fs-2xl: 37px;
+   
   }
 }
