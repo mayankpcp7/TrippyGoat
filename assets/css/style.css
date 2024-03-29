@@ -560,6 +560,7 @@ nav ul li a:hover {
   right: 30px;
   bottom: 30px;
   z-index: 20;
+  display: none;
 }
 
 .back_to_top_icon {
