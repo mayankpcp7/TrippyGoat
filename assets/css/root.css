@@ -74,6 +74,7 @@
   margin: 0px auto;
   padding: 0px 12px;
 }
+/* --------------------- media quaries ----------------- */
 
 @media (max-width: 992px) {
   :root {
