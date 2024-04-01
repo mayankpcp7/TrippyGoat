@@ -119,11 +119,44 @@ nav ul li a:hover {
 .start_100 {
   left: -100%;
 }
-
 .start_0 {
   left: 0% !important;
 }
-
+.connect_btn {
+  border: 0.5px solid white;
+  border-bottom: none;
+  border-radius: 1.5px;
+  width: 156px;
+  height: 34.48px;
+}
+.connect_btn_border {
+  width: 168px;
+  height: 47px;
+}
+.connect_btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 22%;
+  height: 0.5px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.connect_btn::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0%;
+  width: 63%;
+  height: 0.5px;
+  background-color: #ffffff;
+  z-index: 2;
+  transition: 300ms;
+}
+.connect_btn:hover::before {
+  width: 100%;
+}
 /* ----------------------------------main----------------------------------- */
 .header_goat {
   max-width: 385.87px;
@@ -131,7 +164,7 @@ nav ul li a:hover {
 }
 
 .main {
-  min-height: 550px;
+  min-height: 590px;
 }
 
 /* -------------------------------Trippy Goat ----------------------------- */
@@ -151,7 +184,9 @@ nav ul li a:hover {
 .leaves_bg_h {
   max-height: 417px !important;
 }
-
+.mint_btn {
+  width: 144px !important;
+}
 /* ---------------------------------About us------------------------------- */
 .about_us_p {
   padding: 91px 0px;
@@ -609,6 +644,7 @@ nav ul li a:hover {
   width: 45px;
   height: 45px;
   border-radius: 50%;
+  rotate: 90deg;
 }
 
 .backToTop:hover {
@@ -658,6 +694,11 @@ nav ul li a:hover {
 }
 
 /* --------------------------------------Media Quaries----------------------------------------- */
+@media (max-width: 1399.98px) {
+  .overflow_x_scroll {
+    overflow-x: scroll;
+  }
+}
 @media (max-width: 1200.98px) {
   .center {
     max-width: 260px !important;
