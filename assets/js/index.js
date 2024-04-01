@@ -104,3 +104,30 @@ function backToTop() {
 //-------------------------------------------- year function ----------------------------------------//
 document.getElementById("currentYear").innerText =
   new Date().getFullYear();
+
+ //----------------------------------------------- onscroll_timeline -------------------------------/ /
+    $(document).ready(function () {
+      var items = $(".timeline2 li"),
+        lineToDraw = $(".draw-line");
+      // Update line height on window scroll
+      $(window).on("scroll", function () {
+        var windowDistance = $(window).scrollTop(),
+          windowHeight = $(window).height() / 2,
+          timelineDistance = $(".timeline2").offset().top;
+
+        if (windowDistance >= timelineDistance - windowHeight) {
+          var line = windowDistance - timelineDistance + windowHeight;
+          lineToDraw.css("height", line + 20 + "px");
+        }
+        // Add or remove 'in-view' class based on visibility
+        var bottom = lineToDraw.offset().top + lineToDraw.outerHeight(true);
+        items.each(function (index) {
+          var circlePosition = $(this).offset();
+          if (bottom > circlePosition.top) {
+            $(this).addClass("in-view");
+          } else {
+            $(this).removeClass("in-view");
+          }
+        });
+      });
+    });

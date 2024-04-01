@@ -3,7 +3,6 @@
 * {
   text-decoration: none !important;
   list-style-type: none;
- 
 }
 
 .bg_header {
@@ -281,6 +280,49 @@ nav ul li a:hover {
   margin-top: 32px;
 }
 
+.timeline2 .default-line {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background: #979793;
+  min-height: 540px;
+}
+
+.timeline2 .draw-line {
+  width: 3px;
+  max-height: 540px;
+  transform: translateX(-40%);
+  position: absolute;
+  background: #fff;
+}
+
+.timeline2 ul li {
+  list-style-type: none;
+  position: relative;
+  width: 2px;
+  margin: 0 auto;
+  height: 260px !important;
+  max-height: 537px !important;
+  background: transparent;
+}
+
+.timeline2 ul li::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #000;
+  border: 1px solid #fff;
+}
+
+.timeline2 ul li.in-view::before {
+  background: #fff;
+}
+
 /* -------------------------------------Goat Slider---------------------------------------- */
 .goat_slider_img {
   max-width: 215px !important;
@@ -304,7 +346,7 @@ nav ul li a:hover {
   }
 
   0% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 2));
   }
 }
 
@@ -920,5 +962,17 @@ nav ul li a:hover {
     top: -10%;
     left: -35%;
     max-width: 500px;
+  }
+  .timeline2 .default-line {
+    min-height: 800px;
+  }
+
+  .timeline2 .draw-line {
+    max-height: 800px;
+  }
+
+  .timeline2 ul li {
+    height: 390px !important;
+    max-height: 700px !important;
   }
 }
