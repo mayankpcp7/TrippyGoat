@@ -853,6 +853,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768.98px) {
+   .bg_nav {
+    background: #000000 !important;
+    backdrop-filter: none !important;
+  }
   .header_goat {
     max-width: 268px;
     margin: 0px;
